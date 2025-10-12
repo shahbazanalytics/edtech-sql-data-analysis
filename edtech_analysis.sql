@@ -181,3 +181,40 @@ GROUP BY
     DATENAME(month, enrollment_date)
 ORDER BY
     MONTH(enrollment_date);
+    
+-- Enrollments by Age Group and Enrollment Year
+
+SELECT
+    YEAR(e.enrollment_date) AS Enrollment_Year,
+    CASE 
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END < 20 THEN 'Below 20'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 20 AND 25 THEN '20-25'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 26 AND 30 THEN '26-30'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 31 AND 35 THEN '31-35'
+        ELSE 'Above 35'
+    END AS Age_Group,
+    COUNT(e.enrollment_id) AS Total_Enrollments
+FROM
+    dbo.enrollments e
+JOIN
+    dbo.students s ON e.student_id = s.student_id
+GROUP BY
+    YEAR(e.enrollment_date),
+    CASE 
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END < 20 THEN 'Below 20'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 20 AND 25 THEN '20-25'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 26 AND 30 THEN '26-30'
+        WHEN DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date)
+             - CASE WHEN DATEADD(YEAR, DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date), s.date_of_birth) > e.enrollment_date THEN 1 ELSE 0 END BETWEEN 31 AND 35 THEN '31-35'
+        ELSE 'Above 35'
+    END
+ORDER BY
+    Enrollment_Year,
+    MIN(DATEDIFF(YEAR, s.date_of_birth, e.enrollment_date));
