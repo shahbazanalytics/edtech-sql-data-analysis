@@ -84,4 +84,5 @@ It includes data about **students**, **courses**, and **enrollments**, with anal
    GO
    USE EdTechDB;
    GO
-4. Execute to load all tables and data.
+4. Execute `edtech_db.sql` to load all tables and data.
+5. Execute `edtech_analysis.sql` to perform insights
