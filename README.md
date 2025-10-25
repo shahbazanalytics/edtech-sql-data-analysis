@@ -1,7 +1,7 @@
 # 🎓 EdTech SQL Data Analysis
 
 <p align="center">
-  <img src="A_digital_graphic_design_banner_features_the_title.png" alt="EdTech SQL Data Analysis Banner" width="100%">
+  <img src="banner_edtech_sql.png" alt="EdTech SQL Data Analysis Banner" width="100%">
 </p>
 
 <h1 align="center">🎓 EdTech SQL Data Analysis</h1>
