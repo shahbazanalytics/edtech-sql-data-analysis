@@ -1,4 +1,4 @@
---IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'EdTechDB')
+ --IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'EdTechDB')
 --BEGIN
 --    CREATE DATABASE EdTechDB;
 --END
@@ -23,16 +23,20 @@
 --);
 --GO
 
---CREATE TABLE courses (
---    course_id INT PRIMARY KEY,
---    course_name VARCHAR(100),
---    category VARCHAR(50),
---    instructor_name VARCHAR(100),
---    course_level VARCHAR(20),
---    price DECIMAL(8,2),
---    published_date DATE
---);
---GO
+-- 2️⃣ Recreate new table with IDENTITY property
+-- CREATE TABLE courses (
+--     course_id INT IDENTITY(1,1) PRIMARY KEY,
+--     course_name VARCHAR(100),
+--     category VARCHAR(50),
+--     course_level VARCHAR(20),
+--     price DECIMAL(8,2),
+--     published_date DATE,
+--     instructor_id INT NULL
+-- );
+
+-- GO
+
+
 
 --CREATE TABLE enrollments (
 --    enrollment_id INT PRIMARY KEY,
@@ -46,6 +50,17 @@
 --    FOREIGN KEY (course_id) REFERENCES courses(course_id)
 --);
 --GO
+
+-- CREATE TABLE instructors (
+--     instructor_id INT PRIMARY KEY IDENTITY(1,1),
+--     instructor_name NVARCHAR(100) NOT NULL,
+--     specialization NVARCHAR(100),
+--     experience_years INT,
+--     join_date DATE,
+--     email NVARCHAR(100)
+-- );
+
+-- GO
 
 ---- Insert Students
 --INSERT INTO students VALUES (1, 'Saanvi', 'Singh', 'Male', CONVERT(DATE, '1997-12-14', 23), 'saanvi.singh1@example.com', 'Hyderabad', 'India', CONVERT(DATE, '2022-05-01', 23));
@@ -348,6 +363,32 @@
 --INSERT INTO students VALUES (298, 'Diya', 'Reddy', 'Female', CONVERT(DATE, '2004-04-11', 23), 'diya.reddy298@example.com', 'Kolkata', 'India', CONVERT(DATE, '2024-10-17', 23));
 --INSERT INTO students VALUES (299, 'Aditya', 'Sharma', 'Female', CONVERT(DATE, '2005-09-06', 23), 'aditya.sharma299@example.com', 'Kolkata', 'India', CONVERT(DATE, '2023-05-09', 23));
 --INSERT INTO students VALUES (300, 'Aditya', 'Patel', 'Female', CONVERT(DATE, '2000-08-29', 23), 'aditya.patel300@example.com', 'Kolkata', 'India', CONVERT(DATE, '2024-06-19', 23));
+
+-- Insert Instructors
+-- INSERT INTO instructors (instructor_name, specialization, experience_years, join_date, email)
+-- VALUES
+-- ('John Smith', 'Python Programming', 5, '2023-01-10', 'john.smith@edtech.com'),
+-- ('Emily Davis', 'Data Science', 6, '2023-02-15', 'emily.davis@edtech.com'),
+-- ('Michael Brown', 'Web Development', 4, '2023-03-05', 'michael.brown@edtech.com'),
+-- ('Sophia Johnson', 'Machine Learning', 7, '2023-04-20', 'sophia.johnson@edtech.com'),
+-- ('Liam Wilson', 'Business Analytics', 5, '2023-05-12', 'liam.wilson@edtech.com'),
+-- ('Olivia Martin', 'UI/UX Design', 4, '2023-06-22', 'olivia.martin@edtech.com'),
+-- ('Ethan Clark', 'Cybersecurity', 8, '2023-07-01', 'ethan.clark@edtech.com'),
+-- ('Neha Kapoor', 'Data Visualization', 6, '2024-02-10', 'neha.kapoor@edtech.com'),
+-- ('Arjun Mehta', 'Web Development', 5, '2024-03-05', 'arjun.mehta@edtech.com'),
+-- ('Ravi Narayan', 'Artificial Intelligence', 7, '2024-04-20', 'ravi.narayan@edtech.com'),
+-- ('Sanya Bhatia', 'Cloud Computing', 8, '2024-05-12', 'sanya.bhatia@edtech.com'),
+-- ('Vikas Patel', 'Cybersecurity', 9, '2024-06-15', 'vikas.patel@edtech.com');
+-- ('Priya Singh', 'Machine Learning', 6, '2022-04-01', 'priya.singh@edtech.com'),
+-- ('Neha Sharma', 'Data Science', 5, '2022-06-15', 'neha.sharma@edtech.com'),
+-- ('Amit Kumar', 'Python', 4, '2022-08-20', 'amit.kumar@edtech.com'),
+-- ('Sneha Patel', 'Web Development', 5, '2022-09-10', 'sneha.patel@edtech.com'),
+-- ('Rahul Verma', 'Artificial Intelligence', 7, '2021-12-12', 'rahul.verma@edtech.com'),
+-- ('John Doe', 'SQL and Data Engineering', 8, '2020-11-01', 'john.doe@edtech.com'),
+-- ('David Johnson', 'Cybersecurity', 6, '2023-01-10', 'david.johnson@edtech.com');
+
+
+
 
 ---- Insert Courses
 --INSERT INTO courses VALUES (1, 'Machine Learning Masterclass 1', 'Python', 'Priya Singh', 'Advanced', 4470.02, CONVERT(DATE, '2024-09-16', 23));
@@ -873,152 +914,36 @@
 --INSERT INTO enrollments VALUES (499, 78, 10, CONVERT(DATE, '2022-09-26', 23), 80.45, 'Dropped', NULL);
 --INSERT INTO enrollments VALUES (500, 221, 3, CONVERT(DATE, '2024-07-16', 23), 60.72, 'Active', NULL);
 
--- Fetch students data
-SELECT
-	first_name,
-	last_name,
-	gender,
-	date_of_birth,
-	email,
-	city,
-	registration_date
-FROM
-	dbo.students;
+--DROP instructor_name column from 'courses' TABLE
+-- ALTER TABLE courses
+-- DROP COLUMN instructor_name;
+-- GO
 
--- Admission trends by city
-SELECT
-	city,
-	COUNT(*) 'Total Students'
-FROM
-	dbo.students
-GROUP BY
-	city
-ORDER BY
-	COUNT(*) DESC;
-
--- Distinct country
-SELECT
-	DISTINCT country
-FROM
-	dbo.students;
-
--- Remove country column
-
-ALTER TABLE dbo.students
-DROP COLUMN country;
-GO
-
--- Number of students registered per year
-SELECT
-	YEAR(registration_date) Registration_Year,
-	COUNT(*) 'Total Students'
-FROM
-	dbo.students
-GROUP BY
-	YEAR(registration_date)
-ORDER BY
-	YEAR(registration_date);
-
--- Total Students by Gender
-SELECT
-	gender,
-	COUNT(*) 'Total Students'
-FROM
-	dbo.students
-GROUP BY
-	gender
-ORDER BY
-	COUNT(*) DESC;
-
--- SELECT TOP 2 * FROM courses;  
-
--- List of instructors
-SELECT
-	DISTINCT instructor_name
-FROM
-	dbo.courses;
-
--- Total courses by instructors
-SELECT
-	instructor_name 'Instructor',
-	COUNT(course_id) 'Total Courses'
-FROM
-	dbo.courses
-GROUP BY
-	instructor_name
-ORDER BY
-	COUNT(course_id) DESC;
+-- Add instructor_id to 'courses' TABLE
+-- ALTER TABLE courses
+-- ADD instructor_id int;
+-- GO
 
 
--- List of category
+-- Ensure no partial constraint exists
+-- Check if FK already exists before adding it
+-- IF NOT EXISTS (
+--     SELECT 1
+--     FROM sys.foreign_keys
+--     WHERE name = 'FK_Courses_Instructors'
+-- )
+-- BEGIN
+--     ALTER TABLE courses
+--     ADD CONSTRAINT FK_Courses_Instructors
+--     FOREIGN KEY (instructor_id)
+--     REFERENCES instructors(instructor_id)
+-- END;
+-- GO
 
-SELECT
-	DISTINCT category
-FROM
-	dbo.courses;
 
--- Number of courses in each category
-SELECT
-	category 'Category',
-	COUNT(course_id) 'Total Courses'
-FROM
-	dbo.courses
-GROUP BY
-	category
-ORDER BY
-	COUNT(course_id) DESC;
-;
 
--- Average Course Price by Category
-SELECT
-	category 'Category',
-	AVG(price) 'Average Price'
-FROM	
-	dbo.courses
-GROUP BY
-	category
-ORDER BY
-AVG(price) DESC;
 
--- Get all the courses detail in the Python category
-SELECT
-	course_id,
-	course_name,
-	instructor_name,
-	price,
-	course_level
-FROM
-	dbo.courses
-WHERE
-	category = 'Python'
-ORDER BY
-	price DESC;
--- Types of Course Levels
-SELECT
-	DISTINCT course_level
-FROM
-	dbo.courses;
 
--- Total Courses by level
-SELECT
-	course_level 'Course Level',
-	COUNT(course_id) 'Total Courses'
-FROM
-	dbo.courses
-GROUP BY
-	course_level
-ORDER BY
-	COUNT(course_id) DESC;
 
--- SELECT TOP 2 * FROM enrollments;
--- Get all the details of the enrollments where progress percent is less than 55%
 
-SELECT
-    enrollment_id,
-    student_id,
-    course_id,
-    progress_percent
-FROM
-    dbo.enrollments
-WHERE
-    progress_percent < 55;
+
