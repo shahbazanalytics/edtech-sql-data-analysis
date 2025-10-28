@@ -52,4 +52,18 @@ SELECT TOP 150
 FROM dbo.students s
 CROSS JOIN dbo.courses c
 WHERE (s.student_id + c.course_id) % 10 = 0
+
 ORDER BY NEWID();
+
+-------------------------------------------------------------
+-- 4️⃣ Update Progress Percent
+-------------------------------------------------------------
+
+UPDATE dbo.enrollments
+SET status = 
+    CASE 
+        WHEN progress_percent = 100 THEN 'Completed'
+        WHEN progress_percent >= 60 THEN 'Active'
+        WHEN progress_percent BETWEEN 1 AND 59 THEN 'In Progress'
+        ELSE 'Not Started'
+    END;
