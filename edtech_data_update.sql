@@ -67,3 +67,50 @@ SET status =
         WHEN progress_percent BETWEEN 1 AND 59 THEN 'In Progress'
         ELSE 'Not Started'
     END;
+
+-------------------------------------------------------------
+-- 5️⃣ Update Category of the courses
+-------------------------------------------------------------
+
+-- Update category of SQL Course
+
+UPDATE courses
+SET category = 'Database Management'
+WHERE course_name LIKE '%SQL%';
+
+-- Update category of Python courses
+
+UPDATE courses
+SET category = 'Programming'
+WHERE course_name LIKE '%Python%';
+
+-- Update category of Machine Learning Course
+UPDATE courses
+SET category = 'AI'
+WHERE course_name LIKE '%Machine Learning%' AND category <> 'AI';
+
+-- Update category of Data Science Course
+UPDATE courses
+SET category = 'Data Science'
+WHERE course_name LIKE '%Data Science%';
+
+-- Update category of AI Course
+UPDATE courses
+SET category = 'AI'
+WHERE course_name LIKE '%AI%';
+
+-- Updare category of Django Course
+UPDATE courses
+SET category = 'Python'
+WHERE course_name LIKE '%Django%';
+
+-- Update category of Web Development course
+UPDATE courses
+SET category = 'Web Development'
+WHERE course_name IN ('Web Development Masterclass 8', 'Web Development Masterclass 16');
+
+-- Update category of Cybersecurity course
+UPDATE courses
+SET category = 'Cybersecurity'
+WHERE course_name LIKE '%Cybersecurity%';
+
