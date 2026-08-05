@@ -1,0 +1,20 @@
+instructor_id,instructor_name,specialization,experience_years,join_date,email
+1,John Smith,Python Programming,5,2023-01-10T00:00:00.000Z,john.smith@edtech.com
+2,Emily Davis,Data Science,6,2023-02-15T00:00:00.000Z,emily.davis@edtech.com
+3,Michael Brown,Web Development,4,2023-03-05T00:00:00.000Z,michael.brown@edtech.com
+4,Sophia Johnson,Machine Learning,7,2023-04-20T00:00:00.000Z,sophia.johnson@edtech.com
+5,Liam Wilson,Business Analytics,5,2023-05-12T00:00:00.000Z,liam.wilson@edtech.com
+6,Olivia Martin,UI/UX Design,4,2023-06-22T00:00:00.000Z,olivia.martin@edtech.com
+7,Ethan Clark,Cybersecurity,8,2023-07-01T00:00:00.000Z,ethan.clark@edtech.com
+8,Neha Kapoor,Data Visualization,6,2024-02-10T00:00:00.000Z,neha.kapoor@edtech.com
+9,Arjun Mehta,Web Development,5,2024-03-05T00:00:00.000Z,arjun.mehta@edtech.com
+10,Ravi Narayan,Artificial Intelligence,7,2024-04-20T00:00:00.000Z,ravi.narayan@edtech.com
+11,Sanya Bhatia,Cloud Computing,8,2024-05-12T00:00:00.000Z,sanya.bhatia@edtech.com
+12,Vikas Patel,Cybersecurity,9,2024-06-15T00:00:00.000Z,vikas.patel@edtech.com
+13,Priya Singh,Machine Learning,6,2022-04-01T00:00:00.000Z,priya.singh@edtech.com
+14,Neha Sharma,Data Science,5,2022-06-15T00:00:00.000Z,neha.sharma@edtech.com
+15,Amit Kumar,Python,4,2022-08-20T00:00:00.000Z,amit.kumar@edtech.com
+16,Sneha Patel,Web Development,5,2022-09-10T00:00:00.000Z,sneha.patel@edtech.com
+17,Rahul Verma,Artificial Intelligence,7,2021-12-12T00:00:00.000Z,rahul.verma@edtech.com
+18,John Doe,SQL and Data Engineering,8,2020-11-01T00:00:00.000Z,john.doe@edtech.com
+19,David Johnson,Cybersecurity,6,2023-01-10T00:00:00.000Z,david.johnson@edtech.com
