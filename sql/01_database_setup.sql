@@ -123,8 +123,6 @@ CREATE TABLE enrollments
     completion_status VARCHAR(20)
         CONSTRAINT DF_CompletionStatus DEFAULT ('Enrolled'),
 
-    completion_date DATE,
-
     rating DECIMAL(2,1),
 
     CONSTRAINT FK_Enrollments_Students
