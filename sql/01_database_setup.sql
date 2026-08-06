@@ -16,13 +16,13 @@ IF DB_ID('EdTechDB') IS NOT NULL
 BEGIN
     DROP DATABASE EdTechDB;
 END;
-GO
+
 
 CREATE DATABASE EdTechDB;
-GO
+
 
 USE EdTechDB;
-GO
+
 
 -- ============================================================================
 -- Create Students Table
@@ -47,7 +47,7 @@ CREATE TABLE students
     registration_date DATE NOT NULL
 );
 
-GO
+
 
 -- ============================================================================
 -- Create Instructors Table
@@ -63,15 +63,15 @@ CREATE TABLE instructors
 
     experience_years INT,
 
-    email VARCHAR(100) UNIQUE,
-
     join_date DATE,
+    
+    email VARCHAR(100) UNIQUE,
 
     CONSTRAINT CHK_ExperienceYears
         CHECK (experience_years >= 0)
 );
 
-GO
+
 
 -- ============================================================================
 -- Create Courses Table
@@ -82,18 +82,18 @@ CREATE TABLE courses
     course_id INT PRIMARY KEY,
 
     course_name VARCHAR(100) NOT NULL,
+    
+    category VARCHAR(50),
+    
+    course_level VARCHAR(20),
+    
+     price DECIMAL(10,2),
+     
+     published_date DATE,
 
     instructor_id INT NOT NULL,
 
-    category VARCHAR(50),
-
-    course_level VARCHAR(20),
-
-    price DECIMAL(10,2),
-
-    published_date DATE,
-
-    CONSTRAINT CHK_CoursePrice
+   	CONSTRAINT CHK_CoursePrice
         CHECK (price >= 0),
 
     CONSTRAINT FK_Courses_Instructors
@@ -101,7 +101,7 @@ CREATE TABLE courses
         REFERENCES instructors(instructor_id)
 );
 
-GO
+
 
 -- ============================================================================
 -- Create Enrollments Table
@@ -117,8 +117,8 @@ CREATE TABLE enrollments
 
     enrollment_date DATE NOT NULL,
 
-    progress_percent INT NOT NULL
-        CONSTRAINT DF_Progress DEFAULT (0),
+    progress_percent DECIMAL(5,2) NOT NULL
+    CONSTRAINT DF_Progress DEFAULT (0),
 
     completion_status VARCHAR(20)
         CONSTRAINT DF_CompletionStatus DEFAULT ('Enrolled'),
@@ -147,7 +147,7 @@ CREATE TABLE enrollments
          'Dropped'))
 );
 
-GO
+
 
 -- ============================================================================
 -- Create Indexes
@@ -177,6 +177,6 @@ ON enrollments(enrollment_date);
 CREATE INDEX IX_Enrollments_Status
 ON enrollments(completion_status);
 
-GO
+
 
 PRINT 'EdTechDB database created successfully.';
