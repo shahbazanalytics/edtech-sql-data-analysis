@@ -30,9 +30,9 @@ It includes data about **students**, **courses**,**instructors** and **enrollmen
 
 ---
 
-## 🧠 Dataset Overview  
+## 🧠 Dataset Overview
 
-### 1️⃣ students  
+### 1️⃣ students
 | Column | Description |
 |---------|--------------|
 | `student_id` | Unique student identifier |
@@ -43,7 +43,7 @@ It includes data about **students**, **courses**,**instructors** and **enrollmen
 | `city` | City of registration |
 | `registration_date` | Date student registered |
 
-### 2️⃣ instructors  
+### 2️⃣ instructors
 | Column | Description |
 |---------|--------------|
 | `instructor_id` | Unique instructor identifier |
@@ -51,7 +51,7 @@ It includes data about **students**, **courses**,**instructors** and **enrollmen
 | `specialization` | Area of expertise (e.g., Python, Data Science, Web Development) |
 | `experience_years` | Total years of teaching experience |
 
-### 3️⃣ courses  
+### 3️⃣ courses
 | Column | Description |
 |---------|--------------|
 | `course_id` | Unique course identifier |
@@ -62,7 +62,7 @@ It includes data about **students**, **courses**,**instructors** and **enrollmen
 | `published_date` | When the course was published |
 | `instructor_id` | Foreign key → `instructors.instructor_id` |
 
-### 4️⃣ enrollments  
+### 4️⃣ enrollments
 | Column | Description |
 |---------|--------------|
 | `enrollment_id` | Unique enrollment identifier |
@@ -72,7 +72,19 @@ It includes data about **students**, **courses**,**instructors** and **enrollmen
 | `progress_percent` | Course completion percentage (0–100%) |
 
 ---
-## 🔄 Incremental Enhancements  
+
+## Key Metrics
+
+| Metric | Definition |
+|---|---|
+| Revenue | Course price × number of enrollments |
+| Total Students | Unique enrolled students |
+| Total Courses | Courses in the catalog |
+| Completion Rate | Average enrollment progress % |
+
+---
+
+## 🔄 Incremental Enhancements
 
 **New Additions (via `edtech_data_update.sql`):**
 - Added 4 new courses in **UI/UX Design** and **Data Visualization**  
