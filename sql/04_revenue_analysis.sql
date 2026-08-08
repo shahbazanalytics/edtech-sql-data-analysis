@@ -105,66 +105,138 @@ ORDER BY
 
 -- 6.Revenue by Instructor
 
+WITH CourseRevenue AS
+(
+    SELECT
+        c.course_id,
+        c.instructor_id,
+        c.price,
+        COUNT(e.enrollment_id) AS total_enrollments,
+
+        c.price * COUNT(e.enrollment_id) AS course_revenue
+
+    FROM 
+    	courses c
+    JOIN 
+    	enrollments e
+    ON 
+    	c.course_id = e.course_id
+
+    GROUP BY
+        c.course_id,
+        c.instructor_id,
+        c.price
+)
+
 SELECT
-	i.instructor_name Instructor,
-	SUM(c.price) total_revenue,
-	COUNT(e.enrollment_id) total_enrollments
-FROM
-	dbo.instructors i 
+    i.instructor_id,
+    i.instructor_name,
+
+    SUM(cr.total_enrollments) AS total_enrollments,
+
+    SUM(cr.course_revenue) AS total_revenue
+
+FROM 
+	instructors i
+
 JOIN 
-	dbo.courses c
+	CourseRevenue cr
 ON 
-	i.instructor_id = c.instructor_id
-JOIN 
-	dbo.enrollments e 
-ON 
-	c.course_id = e.course_id 
+	i.instructor_id = cr.instructor_id
+
 GROUP BY
-	i.instructor_name 
-ORDER BY 
-	total_revenue DESC;
+    i.instructor_id,
+    i.instructor_name
+
+ORDER BY
+    total_revenue DESC;
 
 -- 7.Top 10 Revenue generating Courses
 
-SELECT
-	TOP 10
-	c.course_name Course,
-	c.category Category,
-	SUM(c.price) total_revenue,
-	COUNT(e.enrollment_id) total_enrollments
+SELECT TOP 10
+    c.course_id,
+    c.course_name,
+    c.category,
+    c.price,
+
+    COUNT(e.enrollment_id) AS total_enrollments,
+
+    c.price * COUNT(e.enrollment_id) AS total_revenue
+
 FROM 
-	dbo.courses c 
-JOIN 	
-	dbo.enrollments e 
-ON
-	c.course_id = e.course_id 
-GROUP BY 
-	c.course_name,
-	c.category 
+	courses c
+
+JOIN 
+	enrollments e
+ON 
+	c.course_id = e.course_id
+
+GROUP BY
+    c.course_id,
+    c.course_name,
+    c.category,
+    c.price
+
 ORDER BY
-	total_revenue DESC;
+    total_revenue DESC;
+
 
 -- 8.Revenue Contribution by Category
 
+WITH CourseRevenue AS
+(
+    SELECT
+        c.course_id,
+        c.category,
+        c.price,
+
+        COUNT(e.enrollment_id) AS total_enrollments,
+
+        c.price * COUNT(e.enrollment_id) AS course_revenue
+
+    FROM 
+    	courses c
+
+    JOIN 
+    	enrollments e
+    ON 
+    	c.course_id = e.course_id
+
+    GROUP BY
+        c.course_id,
+        c.category,
+        c.price
+),
+
+CategoryRevenue AS
+(
+    SELECT
+        category,
+
+        SUM(total_enrollments) AS total_enrollments,
+
+        SUM(course_revenue) AS total_revenue
+
+    FROM 
+    	CourseRevenue
+
+    GROUP BY
+        category
+)
+
 SELECT
-
-    c.category,
-
-    SUM(c.price) AS total_revenue,
+    category,
+    total_enrollments,
+    total_revenue,
 
     ROUND(
-        100.0 * SUM(c.price)
-        / SUM(SUM(c.price)) OVER (),
+        100.0 * total_revenue
+        / NULLIF(SUM(total_revenue) OVER (), 0),
         2
-    ) AS revenue_percentage
+    ) AS revenue_contribution_pct
 
-FROM courses c
-
-JOIN enrollments e
-ON c.course_id=e.course_id
-
-GROUP BY
-    c.category
+FROM 
+	CategoryRevenue
 
 ORDER BY
     total_revenue DESC;
