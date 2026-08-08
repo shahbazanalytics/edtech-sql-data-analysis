@@ -15,20 +15,26 @@ ORDER BY
 
 -- 2. Top 10 Revenue-Generating Course
 
-SELECT 
-	TOP 10
-	c.course_name,
-	c.category,
-	c.course_level,
-	SUM(c.price) total_revenue
- FROM
-	dbo.courses c
-GROUP BY 
-	c.course_name,
-	c.category,
-	c.course_level
+SELECT TOP 10
+    c.course_id,
+    c.course_name,
+    c.category,
+    c.price,
+    COUNT(e.enrollment_id) AS total_enrollments,
+    c.price * COUNT(e.enrollment_id) AS total_revenue
+FROM 
+	courses c
+JOIN 
+	enrollments e
+ON 
+	c.course_id = e.course_id
+GROUP BY
+    c.course_id,
+    c.course_name,
+    c.category,
+    c.price
 ORDER BY
-	total_revenue DESC;
+    total_revenue DESC;
 
 -- 3. Most Popular Courses
 -- Which courses attract the highest number of students?
