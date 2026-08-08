@@ -50,7 +50,7 @@ SELECT
     category,
     price,
     total_enrollments,
-    total_revenue,
+    total_revenue
 
 FROM RankedCourses
 
