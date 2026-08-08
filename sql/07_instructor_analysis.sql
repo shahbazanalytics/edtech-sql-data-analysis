@@ -1,23 +1,41 @@
 -- 1.Which instructors generate the highest revenue?
 
+WITH CourseRevenue AS
+(
+    SELECT
+        c.course_id,
+        c.instructor_id,
+        c.price,
+        COUNT(e.enrollment_id) AS total_enrollments,
+        c.price * COUNT(e.enrollment_id) AS course_revenue
+    FROM 
+    	courses c
+    JOIN 
+    	enrollments e
+    ON 
+    	c.course_id = e.course_id
+    GROUP BY
+        c.course_id,
+        c.instructor_id,
+        c.price
+)
+
 SELECT
-	i.instructor_name,
-	COUNT(e.enrollment_id) total_enrollments,
-	SUM(c.price) total_revenue
-FROM
-	dbo.instructors i 
+    i.instructor_id,
+    i.instructor_name,
+    SUM(cr.total_enrollments) AS total_enrollments,
+    SUM(cr.course_revenue) AS total_revenue
+FROM 
+	instructors i
 JOIN 
-	dbo.courses c 
+	CourseRevenue cr
 ON 
-	i.instructor_id = c.instructor_id 
-JOIN
-	dbo.enrollments e 
-ON
-	c.course_id = e.course_id 
+	i.instructor_id = cr.instructor_id
 GROUP BY
-	i.instructor_name
+    i.instructor_id,
+    i.instructor_name
 ORDER BY
-	total_revenue DESC;
+    total_revenue DESC;
 
 -- 2.Students Per Instructor
 
