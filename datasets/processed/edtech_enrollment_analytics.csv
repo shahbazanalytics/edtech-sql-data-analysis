@@ -1,0 +1,501 @@
+"enrollment_id","student_id","course_id","enrollment_date","progress_percent","completion_status","rating","course_name","instructor_id","category","course_level","price","published_date","instructor_name","specialization","experience_years","first_name","last_name","gender","date_of_birth","city","registration_date"
+1,117,5,2022-02-08,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Ishaan,Nair,Male,1997-11-09,Pune,2024-06-01
+2,147,20,2024-01-03,44.88,In Progress,4.4,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aditya,Nair,Male,1995-02-13,Bengaluru,2024-06-19
+3,211,4,2022-10-15,52.40,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+4,128,12,2023-04-04,22.12,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Anaya,Singh,Female,2002-12-07,Hyderabad,2022-02-08
+5,112,1,2024-01-23,100.00,Completed,2.1,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Tara,Singh,Male,2005-06-25,Pune,2022-07-16
+6,289,1,2023-08-13,6.45,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Kabir,Chopra,Female,1997-01-09,Chennai,2022-03-23
+7,295,4,2024-08-13,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Riya,Nair,Male,2003-10-19,Pune,2023-11-21
+8,235,6,2022-11-19,54.25,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Riya,Sharma,Female,1995-05-18,Delhi,2022-03-22
+9,19,13,2022-12-11,47.65,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+10,66,1,2024-11-13,55.28,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Saanvi,Kumar,Male,2002-08-29,Chennai,2022-03-03
+11,43,7,2023-02-25,11.91,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Riya,Nair,Male,1995-03-13,Chennai,2022-04-10
+12,237,17,2023-05-25,40.52,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Anaya,Patel,Female,2000-11-14,Kolkata,2023-10-27
+13,127,9,2023-03-23,14.23,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Ishaan,Chopra,Female,1995-12-13,Bengaluru,2024-05-11
+14,159,9,2022-02-28,8.94,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Riya,Nair,Female,2003-12-24,Pune,2024-05-26
+15,228,12,2024-03-06,22.22,In Progress,4.9,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Ishaan,Kumar,Female,1997-12-14,Bengaluru,2022-08-29
+16,1,4,2024-07-16,45.04,In Progress,1.2,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Saanvi,Singh,Male,1997-12-14,Hyderabad,2022-05-01
+17,240,9,2023-02-23,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Anaya,Singh,Female,1999-08-05,Bengaluru,2023-09-21
+18,36,5,2024-02-20,12.34,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Diya,Patel,Male,1995-03-27,Pune,2023-07-14
+19,12,16,2024-02-09,8.34,In Progress,4.2,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Tara,Chopra,Female,2004-10-17,Ahmedabad,2023-05-07
+20,51,19,2024-05-31,100.00,Completed,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Kabir,Kumar,Female,2000-10-02,Ahmedabad,2023-10-18
+21,46,1,2023-10-30,7.49,In Progress,4.2,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Ishaan,Yadav,Female,2004-12-13,Hyderabad,2024-05-05
+22,210,12,2024-12-27,15.46,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Ishaan,Sharma,Female,1997-07-21,Mumbai,2023-01-21
+23,200,9,2024-07-05,40.86,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Aarav,Kumar,Female,2004-08-09,Mumbai,2022-09-21
+24,208,7,2023-09-23,100.00,Completed,4.8,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Riya,Chopra,Female,2001-01-10,Chennai,2023-02-06
+25,270,7,2024-05-23,100.00,Completed,1.5,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Kabir,Reddy,Male,1995-01-25,Pune,2022-12-25
+26,279,12,2023-03-02,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Ishaan,Verma,Male,2000-12-02,Chennai,2024-01-04
+27,271,16,2024-11-16,100.00,Completed,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aditya,Yadav,Female,2000-03-18,Kolkata,2023-03-26
+28,117,10,2022-01-21,43.76,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Nair,Male,1997-11-09,Pune,2024-06-01
+29,259,11,2022-04-11,33.41,In Progress,4.6,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Riya,Kumar,Female,1998-09-08,Mumbai,2022-04-17
+30,155,6,2022-07-12,7.56,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Tara,Singh,Male,2005-12-29,Pune,2023-08-14
+31,229,8,2022-05-16,100.00,Completed,4.0,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Riya,Kumar,Male,1996-03-31,Ahmedabad,2022-04-05
+32,3,16,2022-09-06,54.48,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aditya,Nair,Female,2000-05-10,Delhi,2024-05-12
+33,63,20,2022-07-20,38.76,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Saanvi,Yadav,Female,2004-02-01,Bengaluru,2023-10-15
+34,13,8,2022-08-31,30.55,In Progress,1.8,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Aditya,Chopra,Male,2005-04-08,Delhi,2022-10-22
+35,27,9,2022-09-14,57.85,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Anaya,Chopra,Female,2003-11-28,Bengaluru,2023-11-25
+36,214,13,2023-04-03,24.20,In Progress,3.0,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Vivaan,Kumar,Male,2000-10-28,Delhi,2022-09-05
+37,83,8,2023-12-28,100.00,Completed,4.5,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Diya,Chopra,Male,2001-10-25,Kolkata,2024-10-31
+38,247,17,2024-11-16,100.00,Completed,5.0,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Kabir,Kumar,Male,1997-05-13,Chennai,2023-07-28
+39,207,1,2022-12-06,1.09,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aditya,Patel,Female,1999-09-28,Kolkata,2024-09-08
+40,168,5,2022-10-17,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aarav,Singh,Female,2001-09-04,Pune,2022-08-21
+41,42,7,2023-08-06,100.00,Completed,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Riya,Kumar,Male,1997-12-28,Ahmedabad,2024-08-12
+42,191,8,2023-12-02,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Anaya,Yadav,Male,2002-01-18,Ahmedabad,2024-09-13
+43,138,17,2022-08-02,100.00,Completed,3.8,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Diya,Nair,Male,1996-01-08,Delhi,2024-10-02
+44,101,11,2022-09-06,100.00,Completed,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aarav,Sharma,Female,2005-11-24,Mumbai,2022-06-05
+45,240,10,2022-07-15,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Anaya,Singh,Female,1999-08-05,Bengaluru,2023-09-21
+46,65,20,2022-05-10,40.87,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Diya,Sharma,Male,1999-02-02,Bengaluru,2024-10-14
+47,120,5,2024-05-06,33.02,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Diya,Gupta,Male,2002-01-06,Pune,2024-03-21
+48,131,6,2023-07-14,100.00,Completed,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Sharma,Male,2000-02-20,Bengaluru,2023-02-25
+49,274,13,2024-02-11,38.94,In Progress,1.4,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Riya,Sharma,Male,2005-03-29,Hyderabad,2023-10-29
+50,57,20,2023-02-13,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Vivaan,Singh,Female,1999-01-23,Kolkata,2022-01-07
+51,12,12,2023-01-07,8.28,In Progress,3.7,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Tara,Chopra,Female,2004-10-17,Ahmedabad,2023-05-07
+52,64,11,2023-04-29,47.37,In Progress,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Saanvi,Reddy,Female,2001-07-11,Mumbai,2024-06-10
+53,11,11,2023-06-09,4.94,In Progress,3.9,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aditya,Kumar,Female,1995-08-04,Bengaluru,2022-06-20
+54,175,14,2022-02-03,53.79,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Ishaan,Chopra,Female,1995-09-16,Mumbai,2023-02-15
+55,229,20,2022-01-28,28.05,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Riya,Kumar,Male,1996-03-31,Ahmedabad,2022-04-05
+56,251,9,2024-02-28,100.00,Completed,3.6,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Riya,Gupta,Female,2003-11-11,Delhi,2023-01-17
+57,108,2,2023-10-15,100.00,Completed,1.0,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Kabir,Sharma,Female,2000-02-25,Kolkata,2023-05-17
+58,253,18,2022-11-29,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Ishaan,Verma,Female,1996-04-24,Bengaluru,2023-11-09
+59,249,16,2024-06-09,100.00,Completed,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Tara,Patel,Male,2000-07-28,Bengaluru,2022-04-07
+60,280,17,2022-06-11,33.39,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Anaya,Patel,Male,2003-04-08,Delhi,2022-08-28
+61,20,11,2024-01-23,100.00,Completed,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Kabir,Chopra,Female,2000-11-14,Delhi,2022-03-15
+62,78,4,2023-10-15,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Riya,Reddy,Male,2003-06-24,Bengaluru,2022-12-13
+63,212,19,2022-03-18,100.00,Completed,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Vivaan,Sharma,Female,1999-10-15,Ahmedabad,2023-12-31
+64,44,9,2024-04-18,3.67,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Vivaan,Gupta,Male,1997-07-21,Hyderabad,2024-03-06
+65,47,9,2022-04-06,43.68,In Progress,3.9,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Diya,Reddy,Female,2001-09-15,Chennai,2022-01-17
+66,138,17,2022-07-28,44.13,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Diya,Nair,Male,1996-01-08,Delhi,2024-10-02
+67,150,13,2023-02-12,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Kabir,Kumar,Male,2001-11-21,Mumbai,2022-04-04
+68,31,4,2023-04-26,42.88,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Anaya,Patel,Female,2005-12-01,Mumbai,2022-06-11
+69,239,2,2022-01-24,4.81,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Patel,Female,1995-07-17,Kolkata,2024-09-22
+70,171,2,2024-04-07,100.00,Completed,3.9,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Tara,Singh,Female,1999-07-13,Kolkata,2024-05-22
+71,243,13,2024-10-23,5.49,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Anaya,Reddy,Female,1995-07-19,Chennai,2022-08-24
+72,98,6,2023-09-22,57.54,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Tara,Kumar,Male,1995-02-07,Mumbai,2022-07-05
+73,95,17,2024-03-19,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Anaya,Nair,Female,2001-03-27,Kolkata,2023-01-15
+74,105,12,2022-01-13,44.33,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Tara,Patel,Male,1995-09-21,Hyderabad,2022-05-16
+75,274,3,2022-05-09,100.00,Completed,2.2,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Riya,Sharma,Male,2005-03-29,Hyderabad,2023-10-29
+76,171,19,2023-11-10,17.52,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Tara,Singh,Female,1999-07-13,Kolkata,2024-05-22
+77,236,12,2024-02-05,23.62,In Progress,2.2,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Vivaan,Sharma,Male,2001-04-14,Hyderabad,2023-02-04
+78,181,8,2024-10-24,11.56,In Progress,1.9,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Anaya,Patel,Male,1996-02-27,Hyderabad,2022-01-05
+79,160,18,2023-05-25,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Tara,Nair,Male,1998-05-28,Chennai,2024-03-24
+80,130,11,2023-12-19,21.46,In Progress,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Saanvi,Chopra,Male,1997-01-03,Pune,2023-10-20
+81,276,13,2023-08-28,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Vivaan,Gupta,Male,2000-03-30,Chennai,2024-08-12
+82,25,18,2024-03-23,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Aditya,Reddy,Male,2005-03-28,Ahmedabad,2022-09-24
+83,235,13,2023-08-29,48.02,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Riya,Sharma,Female,1995-05-18,Delhi,2022-03-22
+84,45,13,2024-04-02,14.28,In Progress,4.1,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+85,101,19,2024-07-28,35.87,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aarav,Sharma,Female,2005-11-24,Mumbai,2022-06-05
+86,70,15,2024-04-11,100.00,Completed,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Vivaan,Nair,Male,2000-01-04,Chennai,2022-04-27
+87,207,1,2024-03-11,15.27,In Progress,4.4,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aditya,Patel,Female,1999-09-28,Kolkata,2024-09-08
+88,151,17,2023-08-01,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Anaya,Singh,Female,1995-04-17,Bengaluru,2024-09-01
+89,299,19,2024-04-11,100.00,Completed,4.6,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aditya,Sharma,Female,2005-09-06,Kolkata,2023-05-09
+90,13,14,2022-03-24,14.42,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aditya,Chopra,Male,2005-04-08,Delhi,2022-10-22
+91,140,10,2022-01-08,100.00,Completed,4.3,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Diya,Chopra,Female,2004-12-08,Mumbai,2022-03-26
+92,243,6,2024-11-14,100.00,Completed,3.0,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Anaya,Reddy,Female,1995-07-19,Chennai,2022-08-24
+93,36,19,2023-12-31,99.26,Active,3.4,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Diya,Patel,Male,1995-03-27,Pune,2023-07-14
+94,80,15,2023-02-03,35.37,In Progress,1.3,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Vivaan,Reddy,Male,1996-07-04,Bengaluru,2022-10-01
+95,65,5,2024-08-29,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Diya,Sharma,Male,1999-02-02,Bengaluru,2024-10-14
+96,71,17,2024-06-17,50.33,In Progress,2.2,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aditya,Yadav,Male,2005-09-08,Pune,2024-06-28
+97,286,12,2022-11-01,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Anaya,Patel,Male,2004-11-04,Pune,2023-08-30
+98,219,18,2024-02-13,100.00,Completed,1.6,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Diya,Gupta,Male,1999-09-25,Hyderabad,2023-11-05
+99,206,8,2024-01-04,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Vivaan,Nair,Male,2000-06-21,Mumbai,2024-04-11
+100,225,11,2024-03-17,40.40,In Progress,1.0,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aarav,Reddy,Female,1996-05-12,Ahmedabad,2022-05-14
+101,20,19,2023-12-08,100.00,Completed,4.4,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Kabir,Chopra,Female,2000-11-14,Delhi,2022-03-15
+102,195,13,2024-05-28,15.15,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Ishaan,Gupta,Female,2001-08-29,Delhi,2023-07-22
+103,10,5,2023-01-06,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Ishaan,Verma,Male,1998-09-28,Ahmedabad,2022-04-17
+104,243,5,2023-09-04,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Anaya,Reddy,Female,1995-07-19,Chennai,2022-08-24
+105,95,4,2023-02-14,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Anaya,Nair,Female,2001-03-27,Kolkata,2023-01-15
+106,246,19,2022-05-08,100.00,Completed,4.8,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Saanvi,Patel,Male,2003-05-28,Hyderabad,2023-01-20
+107,259,9,2023-07-16,28.22,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Riya,Kumar,Female,1998-09-08,Mumbai,2022-04-17
+108,128,16,2024-07-19,1.11,In Progress,4.3,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Anaya,Singh,Female,2002-12-07,Hyderabad,2022-02-08
+109,19,20,2023-05-10,2.89,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+110,115,13,2023-06-26,43.48,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Kabir,Singh,Female,1998-12-19,Kolkata,2022-08-22
+111,163,12,2023-08-07,47.47,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Riya,Chopra,Male,2004-08-26,Mumbai,2022-05-25
+112,18,6,2023-12-17,24.86,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Anaya,Chopra,Female,1997-11-24,Bengaluru,2022-04-09
+113,23,18,2023-11-22,20.05,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Saanvi,Reddy,Female,1999-07-01,Bengaluru,2023-07-23
+114,254,4,2022-04-21,2.52,In Progress,3.7,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aarav,Sharma,Female,1996-07-23,Ahmedabad,2022-01-16
+115,82,12,2023-05-04,2.73,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Saanvi,Yadav,Female,2000-01-18,Ahmedabad,2023-05-06
+116,45,9,2024-02-22,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+117,55,18,2022-10-13,41.90,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Saanvi,Sharma,Male,2000-09-01,Bengaluru,2023-01-17
+118,270,14,2024-08-30,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Kabir,Reddy,Male,1995-01-25,Pune,2022-12-25
+119,195,5,2022-08-11,31.86,In Progress,3.7,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Ishaan,Gupta,Female,2001-08-29,Delhi,2023-07-22
+120,87,9,2022-09-26,25.36,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Anaya,Sharma,Female,1998-09-15,Delhi,2023-11-13
+121,45,10,2023-02-15,7.86,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+122,128,14,2022-10-07,46.90,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Anaya,Singh,Female,2002-12-07,Hyderabad,2022-02-08
+123,232,9,2023-08-21,41.87,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Ishaan,Verma,Female,2003-09-13,Bengaluru,2024-11-25
+124,143,3,2022-03-24,100.00,Completed,3.5,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Kabir,Verma,Female,1999-08-31,Mumbai,2022-07-22
+125,17,20,2022-06-17,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Diya,Reddy,Male,2001-12-17,Mumbai,2024-11-13
+126,41,13,2024-10-11,2.96,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aarav,Patel,Female,2005-07-29,Kolkata,2022-02-26
+127,283,15,2023-11-21,36.22,In Progress,4.1,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Saanvi,Gupta,Female,2000-10-15,Chennai,2024-12-02
+128,88,6,2022-03-14,43.62,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Verma,Female,1996-03-30,Hyderabad,2024-03-15
+129,74,12,2022-11-02,43.16,In Progress,1.4,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Diya,Yadav,Male,1999-08-09,Bengaluru,2022-04-30
+130,205,19,2024-07-07,100.00,Completed,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Saanvi,Chopra,Male,1997-07-22,Chennai,2022-07-27
+131,265,15,2024-02-11,5.88,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Diya,Chopra,Female,2001-06-20,Pune,2024-08-26
+132,247,1,2023-09-28,100.00,Completed,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Kabir,Kumar,Male,1997-05-13,Chennai,2023-07-28
+133,115,2,2024-09-30,100.00,Completed,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Kabir,Singh,Female,1998-12-19,Kolkata,2022-08-22
+134,165,17,2022-01-11,100.00,Completed,1.2,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aditya,Kumar,Female,1997-10-08,Mumbai,2023-02-20
+135,52,6,2024-11-13,33.34,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Tara,Patel,Female,2005-03-20,Hyderabad,2023-09-11
+136,18,14,2023-03-25,100.00,Completed,1.0,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Anaya,Chopra,Female,1997-11-24,Bengaluru,2022-04-09
+137,251,17,2023-09-21,4.41,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Riya,Gupta,Female,2003-11-11,Delhi,2023-01-17
+138,106,16,2024-05-04,16.38,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Ishaan,Nair,Male,2005-09-09,Ahmedabad,2023-02-28
+139,75,8,2022-10-28,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Kabir,Reddy,Male,2002-02-20,Hyderabad,2024-05-14
+140,10,10,2024-05-08,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Verma,Male,1998-09-28,Ahmedabad,2022-04-17
+141,147,19,2024-04-25,40.79,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aditya,Nair,Male,1995-02-13,Bengaluru,2024-06-19
+142,211,9,2022-12-21,26.48,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+143,19,2,2022-03-11,19.37,In Progress,3.3,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+144,218,2,2024-12-08,48.30,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Vivaan,Reddy,Male,1995-01-13,Chennai,2023-11-04
+145,16,6,2022-01-23,22.28,In Progress,4.4,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Diya,Patel,Male,1998-01-31,Hyderabad,2023-11-30
+146,19,20,2023-03-30,99.84,Active,1.8,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+147,123,13,2024-02-04,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Kabir,Kumar,Male,2002-08-08,Ahmedabad,2022-11-11
+148,150,13,2022-09-17,17.23,In Progress,4.9,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Kabir,Kumar,Male,2001-11-21,Mumbai,2022-04-04
+149,229,17,2024-11-24,44.74,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Riya,Kumar,Male,1996-03-31,Ahmedabad,2022-04-05
+150,78,3,2023-10-02,49.86,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Riya,Reddy,Male,2003-06-24,Bengaluru,2022-12-13
+151,120,18,2024-04-05,8.93,In Progress,4.3,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Diya,Gupta,Male,2002-01-06,Pune,2024-03-21
+152,170,10,2022-10-23,41.49,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Aditya,Verma,Male,2003-08-02,Chennai,2024-05-25
+153,229,18,2022-01-15,28.07,In Progress,4.3,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Riya,Kumar,Male,1996-03-31,Ahmedabad,2022-04-05
+154,7,2,2022-08-16,40.50,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Singh,Female,1996-09-16,Ahmedabad,2023-04-17
+155,45,15,2022-09-04,100.00,Completed,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+156,130,2,2023-04-29,59.08,Not Started,2.4,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Saanvi,Chopra,Male,1997-01-03,Pune,2023-10-20
+157,53,10,2024-07-30,58.83,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Vivaan,Reddy,Male,1996-02-06,Pune,2024-12-27
+158,160,13,2023-08-17,39.70,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Tara,Nair,Male,1998-05-28,Chennai,2024-03-24
+159,146,16,2022-02-25,100.00,Completed,1.7,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Tara,Yadav,Female,2004-06-06,Bengaluru,2022-10-31
+160,216,1,2022-01-07,5.42,In Progress,1.9,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Diya,Yadav,Female,2004-03-02,Mumbai,2024-02-14
+161,297,7,2024-07-10,17.97,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Diya,Yadav,Male,2001-11-02,Chennai,2024-06-04
+162,273,3,2022-07-16,100.00,Completed,2.8,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Singh,Female,1999-03-16,Mumbai,2023-05-12
+163,142,11,2022-04-02,100.00,Completed,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aditya,Sharma,Female,2005-08-11,Ahmedabad,2022-01-03
+164,176,7,2022-03-26,59.37,Not Started,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Vivaan,Yadav,Male,2004-10-26,Kolkata,2024-04-27
+165,122,19,2022-04-06,59.97,Not Started,3.3,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Kabir,Chopra,Female,1999-04-24,Ahmedabad,2023-04-25
+166,259,12,2024-05-13,44.28,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Riya,Kumar,Female,1998-09-08,Mumbai,2022-04-17
+167,174,9,2022-09-07,52.96,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Aarav,Verma,Female,1996-06-14,Ahmedabad,2023-07-20
+168,43,11,2024-11-01,52.16,In Progress,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Riya,Nair,Male,1995-03-13,Chennai,2022-04-10
+169,51,18,2023-12-04,0.89,Not Started,1.2,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Kabir,Kumar,Female,2000-10-02,Ahmedabad,2023-10-18
+170,263,15,2023-10-12,3.83,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Ishaan,Sharma,Male,1998-09-10,Pune,2022-05-14
+171,34,8,2022-07-28,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Anaya,Nair,Male,1996-09-06,Hyderabad,2022-10-10
+172,217,5,2022-11-29,58.05,In Progress,3.8,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Kumar,Female,1995-11-14,Chennai,2024-03-30
+173,195,14,2024-03-16,100.00,Completed,1.6,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Ishaan,Gupta,Female,2001-08-29,Delhi,2023-07-22
+174,4,15,2024-06-26,47.85,In Progress,1.4,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Vivaan,Sharma,Male,2005-05-19,Bengaluru,2023-10-07
+175,203,13,2024-06-26,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aditya,Kumar,Male,2000-04-28,Hyderabad,2023-02-05
+176,207,14,2022-06-27,38.16,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aditya,Patel,Female,1999-09-28,Kolkata,2024-09-08
+177,154,12,2024-07-18,54.28,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aarav,Nair,Female,1998-10-29,Bengaluru,2024-10-08
+178,145,4,2023-08-22,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aditya,Kumar,Male,1996-01-17,Bengaluru,2023-12-30
+179,269,7,2022-04-19,44.63,In Progress,4.8,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Anaya,Reddy,Male,2004-04-29,Chennai,2022-08-28
+180,168,18,2023-02-18,38.53,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Aarav,Singh,Female,2001-09-04,Pune,2022-08-21
+181,171,1,2023-11-04,100.00,Completed,3.3,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Tara,Singh,Female,1999-07-13,Kolkata,2024-05-22
+182,24,15,2024-11-10,33.47,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Ishaan,Reddy,Female,1995-11-30,Bengaluru,2024-01-05
+183,58,9,2024-02-05,99.06,Active,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Diya,Verma,Male,1999-08-09,Mumbai,2023-08-22
+184,215,9,2022-02-27,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Tara,Verma,Female,1996-04-14,Hyderabad,2022-10-02
+185,291,13,2022-04-11,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aditya,Chopra,Female,2001-07-14,Chennai,2023-11-01
+186,127,10,2022-07-28,2.27,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Chopra,Female,1995-12-13,Bengaluru,2024-05-11
+187,125,1,2023-06-29,27.76,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Tara,Sharma,Male,2001-11-10,Hyderabad,2023-08-03
+188,56,7,2022-05-01,44.79,In Progress,3.3,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Kabir,Gupta,Female,1996-02-17,Hyderabad,2024-09-28
+189,4,15,2022-12-14,100.00,Completed,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Vivaan,Sharma,Male,2005-05-19,Bengaluru,2023-10-07
+190,164,16,2024-05-16,14.53,In Progress,3.2,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Vivaan,Verma,Female,1996-07-27,Chennai,2023-08-21
+191,168,6,2024-01-26,100.00,Completed,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Singh,Female,2001-09-04,Pune,2022-08-21
+192,29,7,2022-05-02,100.00,Completed,1.6,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aarav,Reddy,Female,1999-10-10,Chennai,2023-11-06
+193,31,12,2024-02-22,11.14,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Anaya,Patel,Female,2005-12-01,Mumbai,2022-06-11
+194,91,7,2024-02-09,100.00,Completed,2.8,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aarav,Kumar,Male,2004-03-19,Chennai,2024-04-20
+195,135,10,2022-03-14,43.88,In Progress,2.1,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Saanvi,Gupta,Female,1998-05-12,Kolkata,2023-05-02
+196,186,19,2024-01-17,22.20,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Vivaan,Nair,Male,2002-02-16,Kolkata,2024-08-19
+197,282,20,2023-04-16,100.00,Completed,1.6,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Tara,Gupta,Female,1996-01-16,Chennai,2024-06-14
+198,230,8,2023-08-03,100.00,Completed,3.4,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Aarav,Kumar,Female,2003-12-04,Pune,2023-03-25
+199,287,16,2024-08-09,33.43,In Progress,2.8,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Diya,Verma,Male,1998-09-07,Chennai,2023-10-27
+200,194,10,2022-01-30,100.00,Completed,1.7,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Saanvi,Nair,Male,1995-07-25,Ahmedabad,2024-12-12
+201,232,6,2022-05-04,25.33,In Progress,1.5,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Ishaan,Verma,Female,2003-09-13,Bengaluru,2024-11-25
+202,41,7,2023-04-18,19.86,In Progress,1.0,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aarav,Patel,Female,2005-07-29,Kolkata,2022-02-26
+203,151,11,2023-03-09,100.00,Completed,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Anaya,Singh,Female,1995-04-17,Bengaluru,2024-09-01
+204,275,1,2024-10-22,100.00,Completed,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Ishaan,Yadav,Female,1997-12-12,Pune,2024-12-01
+205,25,5,2022-07-24,100.00,Completed,4.7,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Reddy,Male,2005-03-28,Ahmedabad,2022-09-24
+206,266,15,2023-05-03,35.89,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Anaya,Sharma,Female,1996-01-21,Hyderabad,2023-05-05
+207,270,19,2022-02-05,17.63,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Kabir,Reddy,Male,1995-01-25,Pune,2022-12-25
+208,230,17,2024-05-02,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aarav,Kumar,Female,2003-12-04,Pune,2023-03-25
+209,77,6,2022-08-28,2.14,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Anaya,Kumar,Male,2001-11-08,Kolkata,2024-07-14
+210,78,18,2024-05-24,100.00,Completed,4.3,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Riya,Reddy,Male,2003-06-24,Bengaluru,2022-12-13
+211,163,20,2023-05-27,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Riya,Chopra,Male,2004-08-26,Mumbai,2022-05-25
+212,162,3,2023-12-14,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Riya,Sharma,Female,2000-08-24,Chennai,2022-01-10
+213,25,3,2024-09-24,54.74,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Reddy,Male,2005-03-28,Ahmedabad,2022-09-24
+214,185,15,2022-09-20,43.08,In Progress,3.8,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Riya,Patel,Female,2004-11-27,Pune,2024-02-20
+215,253,14,2024-03-17,100.00,Completed,3.1,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Ishaan,Verma,Female,1996-04-24,Bengaluru,2023-11-09
+216,255,3,2024-06-25,4.09,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Anaya,Nair,Male,2002-04-29,Ahmedabad,2023-08-01
+217,159,5,2024-06-24,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Riya,Nair,Female,2003-12-24,Pune,2024-05-26
+218,29,2,2023-05-10,37.02,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Reddy,Female,1999-10-10,Chennai,2023-11-06
+219,34,19,2024-07-05,49.56,In Progress,3.7,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Anaya,Nair,Male,1996-09-06,Hyderabad,2022-10-10
+220,225,2,2022-11-24,100.00,Completed,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Reddy,Female,1996-05-12,Ahmedabad,2022-05-14
+221,186,3,2023-01-19,11.85,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Vivaan,Nair,Male,2002-02-16,Kolkata,2024-08-19
+222,149,16,2023-09-30,100.00,Completed,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Diya,Yadav,Female,1996-10-20,Kolkata,2023-01-18
+223,239,20,2023-01-04,32.77,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aarav,Patel,Female,1995-07-17,Kolkata,2024-09-22
+224,185,14,2023-12-03,32.10,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Riya,Patel,Female,2004-11-27,Pune,2024-02-20
+225,206,2,2024-05-05,100.00,Completed,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Vivaan,Nair,Male,2000-06-21,Mumbai,2024-04-11
+226,75,5,2023-06-01,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Kabir,Reddy,Male,2002-02-20,Hyderabad,2024-05-14
+227,219,20,2022-12-20,18.92,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Diya,Gupta,Male,1999-09-25,Hyderabad,2023-11-05
+228,234,7,2023-04-18,27.03,In Progress,4.3,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Riya,Chopra,Male,1995-10-20,Delhi,2022-07-31
+229,179,12,2022-03-07,32.95,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aditya,Singh,Female,2000-06-24,Chennai,2024-07-02
+230,89,6,2024-05-26,100.00,Completed,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Patel,Male,2005-12-11,Hyderabad,2022-07-04
+231,84,4,2022-10-16,1.73,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Vivaan,Gupta,Male,2005-01-02,Hyderabad,2022-04-21
+232,185,18,2022-08-19,10.10,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Riya,Patel,Female,2004-11-27,Pune,2024-02-20
+233,125,1,2024-12-24,10.29,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Tara,Sharma,Male,2001-11-10,Hyderabad,2023-08-03
+234,135,16,2024-11-14,9.31,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Saanvi,Gupta,Female,1998-05-12,Kolkata,2023-05-02
+235,90,3,2023-06-24,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Ishaan,Singh,Female,1999-08-06,Kolkata,2023-07-13
+236,242,7,2022-02-20,53.37,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Tara,Sharma,Female,2004-03-18,Mumbai,2022-09-21
+237,200,19,2022-06-24,30.73,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aarav,Kumar,Female,2004-08-09,Mumbai,2022-09-21
+238,57,1,2022-03-26,22.02,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Vivaan,Singh,Female,1999-01-23,Kolkata,2022-01-07
+239,286,9,2022-09-12,10.01,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Anaya,Patel,Male,2004-11-04,Pune,2023-08-30
+240,69,7,2023-09-30,29.94,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aditya,Singh,Female,1997-06-16,Ahmedabad,2024-07-24
+241,226,17,2024-06-11,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Ishaan,Reddy,Male,2001-01-02,Delhi,2024-12-08
+242,142,6,2023-06-30,25.35,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aditya,Sharma,Female,2005-08-11,Ahmedabad,2022-01-03
+243,211,17,2022-06-09,46.37,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+244,47,14,2023-01-12,100.00,Completed,1.4,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Diya,Reddy,Female,2001-09-15,Chennai,2022-01-17
+245,227,18,2024-01-02,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Ishaan,Singh,Male,2005-03-23,Chennai,2024-09-11
+246,55,17,2023-07-30,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Saanvi,Sharma,Male,2000-09-01,Bengaluru,2023-01-17
+247,57,14,2024-02-16,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Vivaan,Singh,Female,1999-01-23,Kolkata,2022-01-07
+248,246,6,2024-02-09,49.47,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Saanvi,Patel,Male,2003-05-28,Hyderabad,2023-01-20
+249,104,10,2022-04-20,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Anaya,Patel,Male,1999-05-12,Bengaluru,2022-10-02
+250,36,20,2023-07-05,37.36,In Progress,3.4,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Diya,Patel,Male,1995-03-27,Pune,2023-07-14
+251,9,20,2023-06-21,31.41,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aditya,Patel,Female,1998-06-17,Mumbai,2024-09-03
+252,195,18,2022-11-17,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Ishaan,Gupta,Female,2001-08-29,Delhi,2023-07-22
+253,39,6,2024-11-21,21.70,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Tara,Verma,Male,1998-03-28,Bengaluru,2024-11-18
+254,13,2,2024-11-16,100.00,Completed,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aditya,Chopra,Male,2005-04-08,Delhi,2022-10-22
+255,98,9,2023-11-07,38.82,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Tara,Kumar,Male,1995-02-07,Mumbai,2022-07-05
+256,192,8,2022-03-18,7.53,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Vivaan,Chopra,Female,1997-03-02,Delhi,2022-04-25
+257,250,9,2024-09-18,100.00,Completed,2.9,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Tara,Yadav,Male,2004-05-28,Mumbai,2022-02-26
+258,280,3,2024-03-30,6.73,In Progress,3.6,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Anaya,Patel,Male,2003-04-08,Delhi,2022-08-28
+259,43,7,2023-11-20,39.95,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Riya,Nair,Male,1995-03-13,Chennai,2022-04-10
+260,19,5,2024-01-07,100.00,Completed,5.0,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+261,260,19,2023-09-03,44.35,In Progress,3.0,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Diya,Reddy,Male,1996-01-23,Chennai,2024-03-18
+262,15,12,2024-05-04,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Saanvi,Gupta,Male,2001-10-21,Mumbai,2024-01-16
+263,268,10,2022-11-30,5.23,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Aditya,Nair,Female,1998-12-25,Kolkata,2022-04-05
+264,181,17,2024-10-24,2.42,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Anaya,Patel,Male,1996-02-27,Hyderabad,2022-01-05
+265,33,5,2022-11-29,21.26,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Nair,Male,2000-02-15,Kolkata,2022-09-26
+266,239,19,2022-03-06,0.34,Not Started,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aarav,Patel,Female,1995-07-17,Kolkata,2024-09-22
+267,228,4,2022-11-03,33.84,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Ishaan,Kumar,Female,1997-12-14,Bengaluru,2022-08-29
+268,291,12,2022-03-25,41.93,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aditya,Chopra,Female,2001-07-14,Chennai,2023-11-01
+269,59,20,2024-03-11,26.28,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Saanvi,Gupta,Female,2000-02-25,Chennai,2023-05-24
+270,66,5,2022-11-09,29.22,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Saanvi,Kumar,Male,2002-08-29,Chennai,2022-03-03
+271,160,1,2024-08-31,1.80,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Tara,Nair,Male,1998-05-28,Chennai,2024-03-24
+272,270,6,2024-03-30,100.00,Completed,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Kabir,Reddy,Male,1995-01-25,Pune,2022-12-25
+273,153,3,2022-07-06,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Diya,Verma,Male,1998-01-23,Bengaluru,2022-08-11
+274,33,15,2024-07-04,100.00,Completed,1.6,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Aditya,Nair,Male,2000-02-15,Kolkata,2022-09-26
+275,58,6,2022-10-30,100.00,Completed,2.3,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Diya,Verma,Male,1999-08-09,Mumbai,2023-08-22
+276,45,4,2024-01-21,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+277,40,3,2022-04-04,51.41,In Progress,2.1,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Diya,Chopra,Male,2000-05-25,Kolkata,2024-03-12
+278,46,9,2022-08-18,9.30,In Progress,3.2,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Ishaan,Yadav,Female,2004-12-13,Hyderabad,2024-05-05
+279,274,20,2022-09-20,39.60,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Riya,Sharma,Male,2005-03-29,Hyderabad,2023-10-29
+280,198,15,2022-12-18,19.16,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Riya,Patel,Male,1999-03-19,Kolkata,2024-01-23
+281,174,13,2022-08-04,49.84,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aarav,Verma,Female,1996-06-14,Ahmedabad,2023-07-20
+282,195,20,2023-05-16,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Ishaan,Gupta,Female,2001-08-29,Delhi,2023-07-22
+283,300,1,2023-12-05,44.01,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aditya,Patel,Female,2000-08-29,Kolkata,2024-06-19
+284,217,14,2023-06-06,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aditya,Kumar,Female,1995-11-14,Chennai,2024-03-30
+285,293,1,2022-02-25,100.00,Completed,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Ishaan,Singh,Female,1995-08-04,Chennai,2022-10-08
+286,196,13,2023-07-10,32.53,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Riya,Nair,Male,2000-11-15,Chennai,2023-12-20
+287,208,18,2022-02-11,41.74,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Riya,Chopra,Female,2001-01-10,Chennai,2023-02-06
+288,55,20,2022-02-01,43.35,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Saanvi,Sharma,Male,2000-09-01,Bengaluru,2023-01-17
+289,53,6,2022-06-26,18.89,In Progress,4.7,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Vivaan,Reddy,Male,1996-02-06,Pune,2024-12-27
+290,191,3,2024-12-24,34.28,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Anaya,Yadav,Male,2002-01-18,Ahmedabad,2024-09-13
+291,256,2,2023-02-13,25.79,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Kabir,Sharma,Male,1995-10-09,Pune,2024-01-14
+292,4,12,2022-04-21,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Vivaan,Sharma,Male,2005-05-19,Bengaluru,2023-10-07
+293,298,13,2023-12-13,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Diya,Reddy,Female,2004-04-11,Kolkata,2024-10-17
+294,17,11,2022-11-07,100.00,Completed,4.1,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Diya,Reddy,Male,2001-12-17,Mumbai,2024-11-13
+295,219,5,2022-08-11,100.00,Completed,4.5,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Diya,Gupta,Male,1999-09-25,Hyderabad,2023-11-05
+296,228,4,2024-02-02,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Ishaan,Kumar,Female,1997-12-14,Bengaluru,2022-08-29
+297,165,18,2023-08-03,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Aditya,Kumar,Female,1997-10-08,Mumbai,2023-02-20
+298,68,3,2024-04-13,0.41,Not Started,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aarav,Patel,Male,1997-07-17,Hyderabad,2022-02-12
+299,265,14,2023-01-05,47.26,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Diya,Chopra,Female,2001-06-20,Pune,2024-08-26
+300,154,11,2023-05-30,14.59,In Progress,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aarav,Nair,Female,1998-10-29,Bengaluru,2024-10-08
+301,266,19,2023-09-07,100.00,Completed,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Anaya,Sharma,Female,1996-01-21,Hyderabad,2023-05-05
+302,175,10,2023-09-13,40.11,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Chopra,Female,1995-09-16,Mumbai,2023-02-15
+303,113,5,2022-03-22,52.54,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Kabir,Gupta,Male,2004-08-12,Hyderabad,2024-02-01
+304,233,3,2022-05-04,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Chopra,Male,1996-03-05,Delhi,2023-03-03
+305,28,4,2023-06-01,9.41,In Progress,1.4,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Diya,Verma,Female,2005-02-13,Mumbai,2022-09-07
+306,100,1,2023-03-12,100.00,Completed,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aditya,Kumar,Male,2001-06-17,Hyderabad,2023-09-30
+307,215,19,2024-12-10,21.04,In Progress,2.4,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Tara,Verma,Female,1996-04-14,Hyderabad,2022-10-02
+308,291,16,2022-06-12,31.81,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aditya,Chopra,Female,2001-07-14,Chennai,2023-11-01
+309,13,17,2022-03-05,58.55,In Progress,2.3,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aditya,Chopra,Male,2005-04-08,Delhi,2022-10-22
+310,9,3,2023-07-31,31.93,In Progress,1.9,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Patel,Female,1998-06-17,Mumbai,2024-09-03
+311,289,1,2023-01-20,11.54,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Kabir,Chopra,Female,1997-01-09,Chennai,2022-03-23
+312,26,18,2024-07-27,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Riya,Nair,Male,2000-09-07,Kolkata,2022-03-05
+313,54,5,2024-06-12,42.56,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Riya,Singh,Female,1999-08-22,Mumbai,2024-05-24
+314,235,15,2024-05-22,99.99,Active,2.9,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Riya,Sharma,Female,1995-05-18,Delhi,2022-03-22
+315,14,8,2022-05-06,100.00,Completed,3.3,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Aditya,Sharma,Male,2000-01-30,Delhi,2023-04-05
+316,211,17,2022-01-01,24.67,In Progress,3.2,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+317,72,18,2024-09-04,5.70,In Progress,3.2,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Aditya,Patel,Female,1999-04-06,Bengaluru,2023-12-05
+318,248,16,2023-10-08,26.01,In Progress,4.5,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Tara,Verma,Male,2002-10-03,Hyderabad,2024-11-24
+319,60,4,2024-06-16,57.08,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Saanvi,Singh,Female,1996-03-22,Bengaluru,2023-05-30
+320,279,3,2024-09-18,17.78,In Progress,2.2,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Ishaan,Verma,Male,2000-12-02,Chennai,2024-01-04
+321,75,11,2023-06-11,99.11,Active,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Kabir,Reddy,Male,2002-02-20,Hyderabad,2024-05-14
+322,205,16,2024-10-20,33.06,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Saanvi,Chopra,Male,1997-07-22,Chennai,2022-07-27
+323,92,20,2023-05-22,36.94,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Riya,Gupta,Female,1997-10-22,Chennai,2022-12-09
+324,183,12,2022-01-15,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Tara,Nair,Male,2005-07-04,Pune,2023-12-18
+325,77,1,2024-07-01,100.00,Completed,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Anaya,Kumar,Male,2001-11-08,Kolkata,2024-07-14
+326,40,3,2024-05-28,39.56,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Diya,Chopra,Male,2000-05-25,Kolkata,2024-03-12
+327,94,16,2024-05-18,2.23,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aditya,Patel,Female,2001-03-07,Mumbai,2022-12-02
+328,191,8,2022-02-21,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Anaya,Yadav,Male,2002-01-18,Ahmedabad,2024-09-13
+329,4,16,2023-07-08,33.45,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Vivaan,Sharma,Male,2005-05-19,Bengaluru,2023-10-07
+330,29,4,2022-10-17,100.00,Completed,4.0,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aarav,Reddy,Female,1999-10-10,Chennai,2023-11-06
+331,110,2,2023-06-18,9.96,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Sharma,Male,2003-01-29,Hyderabad,2022-10-15
+332,1,6,2024-08-12,19.06,In Progress,1.1,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Saanvi,Singh,Male,1997-12-14,Hyderabad,2022-05-01
+333,182,17,2024-02-28,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aarav,Sharma,Female,2001-03-09,Kolkata,2023-03-27
+334,121,13,2024-02-28,100.00,Completed,1.5,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aarav,Singh,Female,1999-12-20,Ahmedabad,2024-10-17
+335,24,19,2023-06-30,100.00,Completed,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Ishaan,Reddy,Female,1995-11-30,Bengaluru,2024-01-05
+336,20,7,2023-02-12,8.19,In Progress,2.2,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Kabir,Chopra,Female,2000-11-14,Delhi,2022-03-15
+337,44,16,2022-11-16,47.50,In Progress,3.6,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Vivaan,Gupta,Male,1997-07-21,Hyderabad,2024-03-06
+338,41,19,2022-10-21,14.04,In Progress,3.1,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aarav,Patel,Female,2005-07-29,Kolkata,2022-02-26
+339,61,17,2022-03-07,50.39,In Progress,2.4,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Aditya,Verma,Female,2005-08-11,Bengaluru,2024-02-26
+340,163,9,2024-11-28,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Riya,Chopra,Male,2004-08-26,Mumbai,2022-05-25
+341,250,17,2024-08-18,57.53,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Tara,Yadav,Male,2004-05-28,Mumbai,2022-02-26
+342,179,5,2022-11-12,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Singh,Female,2000-06-24,Chennai,2024-07-02
+343,99,11,2022-07-28,0.36,Not Started,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Ishaan,Patel,Male,2005-06-30,Chennai,2022-04-24
+344,146,10,2023-01-01,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Tara,Yadav,Female,2004-06-06,Bengaluru,2022-10-31
+345,205,16,2023-10-09,100.00,Completed,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Saanvi,Chopra,Male,1997-07-22,Chennai,2022-07-27
+346,131,16,2023-06-11,46.83,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aarav,Sharma,Male,2000-02-20,Bengaluru,2023-02-25
+347,19,14,2024-12-05,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aarav,Yadav,Male,1998-04-04,Pune,2023-02-14
+348,136,19,2023-07-29,100.00,Completed,2.8,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Anaya,Patel,Female,2002-08-26,Kolkata,2024-09-19
+349,133,16,2023-06-23,55.38,In Progress,2.8,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Vivaan,Patel,Male,1998-09-18,Pune,2023-06-20
+350,257,2,2022-04-12,4.17,In Progress,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Vivaan,Reddy,Male,2004-02-05,Mumbai,2024-02-09
+351,73,15,2022-09-14,27.05,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Diya,Nair,Female,1996-11-18,Bengaluru,2022-03-13
+352,17,2,2022-02-21,100.00,Completed,3.8,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Diya,Reddy,Male,2001-12-17,Mumbai,2024-11-13
+353,27,19,2023-10-23,29.62,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Anaya,Chopra,Female,2003-11-28,Bengaluru,2023-11-25
+354,147,3,2023-05-04,5.15,In Progress,2.7,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Nair,Male,1995-02-13,Bengaluru,2024-06-19
+355,35,3,2023-08-20,99.70,Active,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Saanvi,Gupta,Female,2001-06-24,Chennai,2023-01-12
+356,4,4,2023-05-16,40.90,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Vivaan,Sharma,Male,2005-05-19,Bengaluru,2023-10-07
+357,20,7,2023-03-25,21.18,In Progress,2.0,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Kabir,Chopra,Female,2000-11-14,Delhi,2022-03-15
+358,212,5,2022-10-25,11.05,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Vivaan,Sharma,Female,1999-10-15,Ahmedabad,2023-12-31
+359,113,3,2022-07-09,9.50,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Kabir,Gupta,Male,2004-08-12,Hyderabad,2024-02-01
+360,296,14,2023-08-14,7.72,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Saanvi,Chopra,Female,2001-05-13,Bengaluru,2022-08-05
+361,211,12,2023-03-14,37.99,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+362,242,19,2024-08-02,100.00,Completed,1.4,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Tara,Sharma,Female,2004-03-18,Mumbai,2022-09-21
+363,74,19,2024-08-01,21.25,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Diya,Yadav,Male,1999-08-09,Bengaluru,2022-04-30
+364,251,15,2023-05-17,49.19,In Progress,1.5,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Riya,Gupta,Female,2003-11-11,Delhi,2023-01-17
+365,139,19,2022-12-01,57.74,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Aditya,Gupta,Female,1995-04-13,Hyderabad,2022-03-15
+366,23,4,2022-10-22,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Saanvi,Reddy,Female,1999-07-01,Bengaluru,2023-07-23
+367,217,3,2023-09-07,1.52,In Progress,4.4,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Kumar,Female,1995-11-14,Chennai,2024-03-30
+368,72,7,2024-12-02,100.00,Completed,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aditya,Patel,Female,1999-04-06,Bengaluru,2023-12-05
+369,298,13,2024-12-25,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Diya,Reddy,Female,2004-04-11,Kolkata,2024-10-17
+370,201,20,2023-11-10,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aarav,Patel,Female,1997-10-19,Chennai,2022-11-30
+371,67,15,2024-06-27,100.00,Completed,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Anaya,Sharma,Female,2004-07-29,Ahmedabad,2022-04-19
+372,211,1,2023-02-06,31.55,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+373,148,13,2022-05-26,41.39,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Tara,Patel,Female,2000-03-11,Mumbai,2022-12-04
+374,116,12,2023-06-03,41.70,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aditya,Verma,Male,2004-09-19,Hyderabad,2024-10-25
+375,38,14,2022-09-23,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Diya,Reddy,Female,2001-05-16,Kolkata,2024-04-15
+376,291,15,2023-07-29,56.08,In Progress,4.7,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Aditya,Chopra,Female,2001-07-14,Chennai,2023-11-01
+377,98,15,2024-03-24,46.99,In Progress,2.4,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Tara,Kumar,Male,1995-02-07,Mumbai,2022-07-05
+378,132,17,2024-05-13,100.00,Completed,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Ishaan,Reddy,Male,2005-03-27,Kolkata,2022-03-28
+379,57,10,2023-12-18,56.08,In Progress,2.2,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Vivaan,Singh,Female,1999-01-23,Kolkata,2022-01-07
+380,160,20,2023-07-16,46.87,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Tara,Nair,Male,1998-05-28,Chennai,2024-03-24
+381,92,3,2023-12-18,49.70,In Progress,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Riya,Gupta,Female,1997-10-22,Chennai,2022-12-09
+382,237,20,2022-04-12,22.57,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Anaya,Patel,Female,2000-11-14,Kolkata,2023-10-27
+383,3,3,2022-12-03,24.16,In Progress,3.5,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Nair,Female,2000-05-10,Delhi,2024-05-12
+384,127,8,2023-11-23,45.98,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Ishaan,Chopra,Female,1995-12-13,Bengaluru,2024-05-11
+385,21,6,2022-11-28,39.39,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Yadav,Male,2004-05-10,Chennai,2024-08-27
+386,16,12,2024-02-02,100.00,Completed,3.1,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Diya,Patel,Male,1998-01-31,Hyderabad,2023-11-30
+387,267,8,2024-05-04,100.00,Completed,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Aditya,Patel,Female,2003-08-17,Chennai,2022-04-20
+388,109,16,2024-09-06,8.62,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Diya,Reddy,Male,1998-02-25,Ahmedabad,2023-02-10
+389,102,16,2023-12-10,100.00,Completed,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Anaya,Reddy,Female,2005-12-19,Hyderabad,2023-08-19
+390,140,4,2022-05-16,29.19,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Diya,Chopra,Female,2004-12-08,Mumbai,2022-03-26
+391,37,14,2023-11-17,56.11,In Progress,3.4,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Tara,Reddy,Female,2000-06-17,Chennai,2022-05-09
+392,23,10,2023-04-07,1.48,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Saanvi,Reddy,Female,1999-07-01,Bengaluru,2023-07-23
+393,271,7,2024-11-09,100.00,Completed,1.1,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aditya,Yadav,Female,2000-03-18,Kolkata,2023-03-26
+394,153,3,2022-01-26,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Diya,Verma,Male,1998-01-23,Bengaluru,2022-08-11
+395,100,5,2022-02-14,3.95,In Progress,4.4,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Kumar,Male,2001-06-17,Hyderabad,2023-09-30
+396,216,16,2023-06-13,16.78,In Progress,4.5,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Diya,Yadav,Female,2004-03-02,Mumbai,2024-02-14
+397,15,14,2022-03-10,46.36,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Saanvi,Gupta,Male,2001-10-21,Mumbai,2024-01-16
+398,110,11,2024-11-07,51.72,In Progress,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aarav,Sharma,Male,2003-01-29,Hyderabad,2022-10-15
+399,148,16,2023-12-22,32.66,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Tara,Patel,Female,2000-03-11,Mumbai,2022-12-04
+400,144,8,2024-02-17,100.00,Completed,3.0,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Riya,Yadav,Male,2002-05-02,Hyderabad,2023-04-20
+401,221,4,2023-06-26,48.69,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aarav,Chopra,Female,2000-05-26,Pune,2024-12-19
+402,157,17,2022-03-26,59.92,Not Started,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Riya,Kumar,Male,1995-11-19,Hyderabad,2024-08-01
+403,218,7,2024-09-22,18.55,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Vivaan,Reddy,Male,1995-01-13,Chennai,2023-11-04
+404,78,6,2023-06-02,1.22,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Riya,Reddy,Male,2003-06-24,Bengaluru,2022-12-13
+405,294,17,2022-04-15,36.93,In Progress,4.2,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Tara,Singh,Male,1995-11-02,Kolkata,2024-05-17
+406,16,15,2022-12-30,11.61,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Diya,Patel,Male,1998-01-31,Hyderabad,2023-11-30
+407,49,14,2023-09-01,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Vivaan,Reddy,Female,2004-03-31,Mumbai,2023-10-22
+408,54,4,2022-07-22,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Riya,Singh,Female,1999-08-22,Mumbai,2024-05-24
+409,238,11,2022-05-19,17.54,In Progress,3.2,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aarav,Kumar,Female,1995-03-13,Delhi,2024-02-20
+410,132,7,2023-04-17,55.91,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Ishaan,Reddy,Male,2005-03-27,Kolkata,2022-03-28
+411,9,9,2022-04-13,100.00,Completed,3.5,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Aditya,Patel,Female,1998-06-17,Mumbai,2024-09-03
+412,177,8,2022-03-21,99.54,Active,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Vivaan,Reddy,Female,2003-02-23,Ahmedabad,2024-04-25
+413,69,3,2024-10-27,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Singh,Female,1997-06-16,Ahmedabad,2024-07-24
+414,139,13,2023-02-15,17.04,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aditya,Gupta,Female,1995-04-13,Hyderabad,2022-03-15
+415,64,1,2024-02-24,100.00,Completed,4.7,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Saanvi,Reddy,Female,2001-07-11,Mumbai,2024-06-10
+416,139,7,2023-08-25,35.73,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aditya,Gupta,Female,1995-04-13,Hyderabad,2022-03-15
+417,40,16,2024-08-08,52.26,In Progress,,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Diya,Chopra,Male,2000-05-25,Kolkata,2024-03-12
+418,205,18,2024-04-13,21.82,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Saanvi,Chopra,Male,1997-07-22,Chennai,2022-07-27
+419,21,2,2024-10-31,100.00,Completed,,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Yadav,Male,2004-05-10,Chennai,2024-08-27
+420,36,9,2022-09-21,19.26,In Progress,1.3,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Diya,Patel,Male,1995-03-27,Pune,2023-07-14
+421,153,9,2022-01-01,23.29,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Diya,Verma,Male,1998-01-23,Bengaluru,2022-08-11
+422,243,12,2022-01-06,47.14,In Progress,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Anaya,Reddy,Female,1995-07-19,Chennai,2022-08-24
+423,154,13,2023-12-29,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Aarav,Nair,Female,1998-10-29,Bengaluru,2024-10-08
+424,250,14,2022-05-27,54.02,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Tara,Yadav,Male,2004-05-28,Mumbai,2022-02-26
+425,153,5,2022-02-16,100.00,Completed,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Diya,Verma,Male,1998-01-23,Bengaluru,2022-08-11
+426,182,6,2022-09-22,17.59,In Progress,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aarav,Sharma,Female,2001-03-09,Kolkata,2023-03-27
+427,28,4,2024-07-12,46.97,In Progress,1.7,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Diya,Verma,Female,2005-02-13,Mumbai,2022-09-07
+428,182,2,2024-03-26,10.20,In Progress,1.7,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Aarav,Sharma,Female,2001-03-09,Kolkata,2023-03-27
+429,102,9,2024-09-08,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Anaya,Reddy,Female,2005-12-19,Hyderabad,2023-08-19
+430,99,11,2024-02-01,2.95,In Progress,3.1,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Ishaan,Patel,Male,2005-06-30,Chennai,2022-04-24
+431,166,15,2024-02-02,32.45,In Progress,3.3,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Saanvi,Singh,Female,1995-07-15,Delhi,2023-05-21
+432,286,10,2023-08-13,19.05,In Progress,1.0,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Anaya,Patel,Male,2004-11-04,Pune,2023-08-30
+433,230,10,2022-07-31,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Aarav,Kumar,Female,2003-12-04,Pune,2023-03-25
+434,146,13,2022-02-06,100.00,Completed,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Tara,Yadav,Female,2004-06-06,Bengaluru,2022-10-31
+435,63,10,2022-07-09,57.17,In Progress,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Saanvi,Yadav,Female,2004-02-01,Bengaluru,2023-10-15
+436,39,4,2022-10-10,8.00,In Progress,2.0,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Tara,Verma,Male,1998-03-28,Bengaluru,2024-11-18
+437,45,18,2023-06-08,10.56,In Progress,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Ishaan,Gupta,Male,2003-06-11,Kolkata,2023-07-07
+438,116,1,2022-06-09,22.93,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Aditya,Verma,Male,2004-09-19,Hyderabad,2024-10-25
+439,216,7,2023-11-22,46.64,In Progress,1.0,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Diya,Yadav,Female,2004-03-02,Mumbai,2024-02-14
+440,153,3,2023-12-17,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Diya,Verma,Male,1998-01-23,Bengaluru,2022-08-11
+441,84,4,2024-03-02,54.28,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Vivaan,Gupta,Male,2005-01-02,Hyderabad,2022-04-21
+442,176,12,2022-06-26,100.00,Completed,2.6,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Vivaan,Yadav,Male,2004-10-26,Kolkata,2024-04-27
+443,67,16,2023-04-06,56.12,In Progress,3.1,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Anaya,Sharma,Female,2004-07-29,Ahmedabad,2022-04-19
+444,56,1,2022-12-04,56.26,In Progress,1.6,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Kabir,Gupta,Female,1996-02-17,Hyderabad,2024-09-28
+445,134,14,2022-04-09,54.94,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Saanvi,Reddy,Female,1997-09-03,Mumbai,2024-11-05
+446,259,15,2022-10-10,30.86,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Riya,Kumar,Female,1998-09-08,Mumbai,2022-04-17
+447,22,5,2023-08-23,15.95,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Kabir,Kumar,Female,1999-11-13,Chennai,2023-06-25
+448,193,9,2022-02-12,51.53,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Riya,Patel,Male,2003-09-13,Hyderabad,2022-12-25
+449,226,17,2023-09-15,13.55,In Progress,3.6,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Ishaan,Reddy,Male,2001-01-02,Delhi,2024-12-08
+450,10,3,2023-03-04,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Ishaan,Verma,Male,1998-09-28,Ahmedabad,2022-04-17
+451,63,17,2022-03-08,26.23,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Saanvi,Yadav,Female,2004-02-01,Bengaluru,2023-10-15
+452,94,20,2023-11-12,100.00,Completed,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Aditya,Patel,Female,2001-03-07,Mumbai,2022-12-02
+453,189,20,2022-03-14,35.81,In Progress,,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Kabir,Verma,Male,1999-01-22,Hyderabad,2023-01-25
+454,251,14,2024-01-18,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Riya,Gupta,Female,2003-11-11,Delhi,2023-01-17
+455,140,4,2022-05-01,28.56,In Progress,1.3,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Diya,Chopra,Female,2004-12-08,Mumbai,2022-03-26
+456,201,7,2024-10-21,18.14,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Aarav,Patel,Female,1997-10-19,Chennai,2022-11-30
+457,281,1,2023-10-15,18.90,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Anaya,Kumar,Male,2004-08-28,Mumbai,2024-08-19
+458,133,1,2022-03-04,28.11,In Progress,,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Vivaan,Patel,Male,1998-09-18,Pune,2023-06-20
+459,226,14,2023-05-08,18.63,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Ishaan,Reddy,Male,2001-01-02,Delhi,2024-12-08
+460,92,2,2023-03-02,0.15,Not Started,2.0,Data Science Masterclass 2,3,Web Development,Intermediate,1044.19,2024-08-23,Michael Brown,Web Development,4,Riya,Gupta,Female,1997-10-22,Chennai,2022-12-09
+461,2,8,2023-10-17,28.05,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Vivaan,Gupta,Female,2003-03-01,Mumbai,2023-06-15
+462,206,9,2024-06-28,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Vivaan,Nair,Male,2000-06-21,Mumbai,2024-04-11
+463,57,17,2022-09-12,54.34,In Progress,,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Vivaan,Singh,Female,1999-01-23,Kolkata,2022-01-07
+464,233,14,2023-01-25,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aditya,Chopra,Male,1996-03-05,Delhi,2023-03-03
+465,174,14,2023-04-09,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Aarav,Verma,Female,1996-06-14,Ahmedabad,2023-07-20
+466,170,5,2022-03-09,36.70,In Progress,,Web Development Masterclass 5,9,Web Development,Beginner,2262.36,2023-06-03,Arjun Mehta,Web Development,5,Aditya,Verma,Male,2003-08-02,Chennai,2024-05-25
+467,44,1,2024-08-13,100.00,Completed,3.8,Machine Learning Masterclass 1,1,Python,Advanced,4470.02,2024-09-16,John Smith,Python Programming,5,Vivaan,Gupta,Male,1997-07-21,Hyderabad,2024-03-06
+468,119,8,2023-03-12,14.79,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Saanvi,Sharma,Male,1998-04-28,Chennai,2023-11-19
+469,286,14,2024-12-22,100.00,Completed,4.6,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Anaya,Patel,Male,2004-11-04,Pune,2023-08-30
+470,72,11,2022-08-03,100.00,Completed,,AI Masterclass 11,10,AI,Intermediate,4483.77,2023-05-28,Ravi Narayan,Artificial Intelligence,7,Aditya,Patel,Female,1999-04-06,Bengaluru,2023-12-05
+471,181,14,2022-10-29,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Anaya,Patel,Male,1996-02-27,Hyderabad,2022-01-05
+472,192,12,2024-09-23,100.00,Completed,4.7,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Vivaan,Chopra,Female,1997-03-02,Delhi,2022-04-25
+473,46,19,2023-07-12,58.09,In Progress,,Python Masterclass 19,4,Machine Learning,Advanced,4470.81,2024-01-08,Sophia Johnson,Machine Learning,7,Ishaan,Yadav,Female,2004-12-13,Hyderabad,2024-05-05
+474,156,12,2024-03-10,100.00,Completed,,Data Science Masterclass 12,1,Python,Beginner,4244.14,2023-03-29,John Smith,Python Programming,5,Aarav,Kumar,Male,1997-09-03,Delhi,2024-12-03
+475,64,14,2022-12-20,53.26,In Progress,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Saanvi,Reddy,Female,2001-07-11,Mumbai,2024-06-10
+476,211,4,2024-05-30,2.29,In Progress,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aarav,Kumar,Male,1999-03-30,Chennai,2024-07-20
+477,10,14,2024-06-11,100.00,Completed,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Ishaan,Verma,Male,1998-09-28,Ahmedabad,2022-04-17
+478,202,17,2024-09-04,100.00,Completed,2.1,AI Masterclass 17,18,SQL,Beginner,700.84,2024-01-18,John Doe,SQL and Data Engineering,8,Riya,Chopra,Female,1997-03-14,Kolkata,2023-08-04
+479,9,3,2022-03-29,35.73,In Progress,3.4,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aditya,Patel,Female,1998-06-17,Mumbai,2024-09-03
+480,264,9,2024-07-22,100.00,Completed,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Kabir,Kumar,Female,2002-03-23,Ahmedabad,2024-05-23
+481,59,13,2024-08-30,12.16,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Saanvi,Gupta,Female,2000-02-25,Chennai,2023-05-24
+482,266,20,2023-01-25,1.69,In Progress,1.7,Machine Learning Masterclass 20,12,Cybersecurity,Intermediate,3084.29,2023-06-11,Vikas Patel,Cybersecurity,9,Anaya,Sharma,Female,1996-01-21,Hyderabad,2023-05-05
+483,90,7,2024-07-01,46.82,In Progress,,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Ishaan,Singh,Female,1999-08-06,Kolkata,2023-07-13
+484,122,14,2023-07-14,52.39,In Progress,1.9,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Kabir,Chopra,Female,1999-04-24,Ahmedabad,2023-04-25
+485,129,9,2023-05-09,44.16,In Progress,1.3,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Saanvi,Singh,Male,2003-01-16,Delhi,2022-05-19
+486,180,4,2022-06-02,100.00,Completed,,Python Masterclass 4,12,Cybersecurity,Intermediate,2943.49,2024-05-18,Vikas Patel,Cybersecurity,9,Aditya,Yadav,Female,2004-02-03,Kolkata,2022-10-18
+487,125,8,2023-08-21,15.30,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Tara,Sharma,Male,2001-11-10,Hyderabad,2023-08-03
+488,226,13,2024-08-18,51.38,In Progress,,Machine Learning Masterclass 13,1,Python,Beginner,1618.36,2023-06-16,John Smith,Python Programming,5,Ishaan,Reddy,Male,2001-01-02,Delhi,2024-12-08
+489,63,15,2024-11-12,99.90,Active,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Saanvi,Yadav,Female,2004-02-01,Bengaluru,2023-10-15
+490,41,15,2024-09-06,26.61,In Progress,,Cybersecurity Masterclass 15,9,Web Development,Beginner,3343.79,2022-04-28,Arjun Mehta,Web Development,5,Aarav,Patel,Female,2005-07-29,Kolkata,2022-02-26
+491,242,7,2022-09-07,100.00,Completed,1.8,SQL Masterclass 7,3,Web Development,Advanced,1001.73,2024-03-19,Michael Brown,Web Development,4,Tara,Sharma,Female,2004-03-18,Mumbai,2022-09-21
+492,151,18,2022-09-04,100.00,Completed,,Machine Learning Masterclass 18,9,Web Development,Beginner,2540.82,2024-01-04,Arjun Mehta,Web Development,5,Anaya,Singh,Female,1995-04-17,Bengaluru,2024-09-01
+493,174,16,2023-05-12,4.27,In Progress,1.6,Web Development Masterclass 16,2,Data Science,Beginner,2467.38,2022-03-16,Emily Davis,Data Science,6,Aarav,Verma,Female,1996-06-14,Ahmedabad,2023-07-20
+494,145,6,2023-02-22,100.00,Completed,,Machine Learning Masterclass 6,10,AI,Intermediate,1132.51,2024-01-07,Ravi Narayan,Artificial Intelligence,7,Aditya,Kumar,Male,1996-01-17,Bengaluru,2023-12-30
+495,54,8,2024-09-30,34.93,In Progress,,Web Development Masterclass 8,7,Cybersecurity,Advanced,1290.66,2022-02-03,Ethan Clark,Cybersecurity,8,Riya,Singh,Female,1999-08-22,Mumbai,2024-05-24
+496,107,10,2023-04-08,24.59,In Progress,2.8,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Ishaan,Singh,Female,2005-05-14,Delhi,2023-07-05
+497,80,9,2022-02-10,17.30,In Progress,,AI Masterclass 9,1,Python,Intermediate,2031.29,2023-05-16,John Smith,Python Programming,5,Vivaan,Reddy,Male,1996-07-04,Bengaluru,2022-10-01
+498,97,14,2024-10-05,0.66,Not Started,,Cybersecurity Masterclass 14,15,Python,Intermediate,1402.13,2023-02-15,Amit Kumar,Python,4,Diya,Gupta,Female,2003-04-04,Ahmedabad,2024-12-30
+499,78,10,2022-09-26,100.00,Completed,,SQL Masterclass 10,15,Python,Beginner,3530.26,2024-07-26,Amit Kumar,Python,4,Riya,Reddy,Male,2003-06-24,Bengaluru,2022-12-13
+500,221,3,2024-07-16,100.00,Completed,,Cybersecurity Masterclass 3,4,Machine Learning,Advanced,2430.65,2024-07-01,Sophia Johnson,Machine Learning,7,Aarav,Chopra,Female,2000-05-26,Pune,2024-12-19
