@@ -78,7 +78,6 @@ edtech-sql-data-analysis/
 │   └── 📂 08_business_questions/
 │
 ├── 🖼️ banner_edtech_sql.png
-├── 📄 database_schema.md
 ├── 🖼️ er_diagram.png
 └── 📄 README.md
 
