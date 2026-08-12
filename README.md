@@ -9,142 +9,301 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Database-Microsoft%20SQL%20Server-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualization-Tableau-17A2B8?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Data%20Analysis-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Concept-CTE%20%26%20Joins-orange?style=for-the-badge" />
 </p>
 
-This project contains a complete end-to-end SQL-based data analysis of an **EdTech platform**.  
-It includes data about **students**, **courses**,**instructors** and **enrollments**, with analytical insights on trends, engagement, and course performance.
+> 🟡 **Project Status: Dashboard in Progress**
+>
+> The SQL analytics, data validation, business analysis, and core insights are complete.  
+> The Tableau Executive Dashboard is currently being finalized, including visual design, layout refinement, interactive filters, and dashboard QA.
+
+---
+
+## 📌 Project Overview
+
+This project presents an end-to-end data analysis of an **EdTech platform** using **Microsoft SQL Server and Tableau**.
+
+The project analyzes students, courses, instructors, and enrollments to uncover insights related to:
+
+- Student enrollment and engagement
+- Course performance
+- Completion and learner progress
+- Revenue performance
+- Category performance
+- Instructor performance
+- Enrollment and revenue trends
+
+The project follows a business-oriented analytics workflow, starting from data preparation and SQL analysis and progressing toward an executive-level Tableau dashboard.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| **Microsoft SQL Server** | Database management and SQL analysis |
+| **SQL** | Data transformation, validation, aggregation and analytics |
+| **Tableau** | Interactive dashboard and data visualization |
+| **GitHub** | Version control and project documentation |
 
 ---
 
 ## 📁 Project Structure
 
-| File | Description |
-|------|--------------|
-| `edtech_db.sql` | Microsoft SQL Server compatible dataset (300 students, 20 courses, 500 enrollments) |
-| `edtech_analysis.sql` | SQL script containing analytical queries and insights |
-| `edtech_advanced_insights.sql` | Advanced SQL analysis using CTEs for deeper engagement and revenue insights |
-| `edtech_data_update.sql` | Incremental update script adding new courses, instructors & realistic progress/enrollments |
-| `README.md` | Project documentation |
+```text
+edtech-sql-data-analysis/
+│
+├── 📂 datasets/
+│   ├── 📂 csv/
+│   ├── 📂 processed/
+│   └── 📂 raw/
+│
+├── 📂 docs/
+│   ├── business_recommendations.md
+│   ├── data_dictionary.md
+│   └── metric_definitions.md
+│
+├── 📂 sql/
+│   ├── 📂 views/
+│   │
+│   ├── 📂 01_database_setup/
+│   ├── 📂 02_load_data/
+│   ├── 📂 03_data_validations/
+│   ├── 📂 04_revenue_analysis/
+│   ├── 📂 05_student_analysis/
+│   ├── 📂 06_course_analysis/
+│   ├── 📂 07_instructor_analysis/
+│   └── 📂 08_business_questions/
+│
+├── 🖼️ banner_edtech_sql.png
+├── 📄 database_schema.md
+├── 🖼️ er_diagram.png
+└── 📄 README.md
 
 ---
 
 ## 🧠 Dataset Overview
 
-### 1️⃣ students
+The project contains four primary entities:
+
+### 1️⃣ Students
+
 | Column | Description |
-|---------|--------------|
+|---|---|
 | `student_id` | Unique student identifier |
 | `first_name`, `last_name` | Student name |
 | `gender` | Male / Female / Other |
-| `date_of_birth` | Student’s birth date |
+| `date_of_birth` | Student's birth date |
 | `email` | Contact email |
 | `city` | City of registration |
 | `registration_date` | Date student registered |
 
-### 2️⃣ instructors
+### 2️⃣ Instructors
+
 | Column | Description |
-|---------|--------------|
+|---|---|
 | `instructor_id` | Unique instructor identifier |
 | `instructor_name` | Instructor full name |
-| `specialization` | Area of expertise (e.g., Python, Data Science, Web Development) |
-| `experience_years` | Total years of teaching experience |
+| `specialization` | Area of expertise |
+| `experience_years` | Teaching experience in years |
 
-### 3️⃣ courses
+### 3️⃣ Courses
+
 | Column | Description |
-|---------|--------------|
+|---|---|
 | `course_id` | Unique course identifier |
 | `course_name` | Course title |
-| `category` | Course domain (e.g., Python, Web Dev, Data Visualization) |
+| `category` | Course domain |
 | `course_level` | Beginner / Intermediate / Advanced |
 | `price` | Course price in INR |
-| `published_date` | When the course was published |
+| `published_date` | Course publication date |
 | `instructor_id` | Foreign key → `instructors.instructor_id` |
 
-### 4️⃣ enrollments
+### 4️⃣ Enrollments
+
 | Column | Description |
-|---------|--------------|
+|---|---|
 | `enrollment_id` | Unique enrollment identifier |
 | `student_id` | Foreign key → `students.student_id` |
 | `course_id` | Foreign key → `courses.course_id` |
-| `enrollment_date` | When the student enrolled |
-| `progress_percent` | Course completion percentage (0–100%) |
+| `enrollment_date` | Enrollment date |
+| `progress_percent` | Course progress percentage (0–100%) |
 
 ---
 
-## Key Metrics
+## 📊 Key Metrics
 
 | Metric | Definition |
 |---|---|
-| Revenue | Course price × number of enrollments |
-| Total Students | Unique enrolled students |
-| Total Courses | Courses in the catalog |
-| Completion Rate | Average enrollment progress % |
+| **Total Students** | Distinct students represented in the enrollment data |
+| **Total Enrollments** | Total enrollment records |
+| **Total Courses** | Courses available in the catalog |
+| **Completion Rate** | Percentage of enrollments reaching 100% progress |
+| **Average Progress** | Average progress percentage across enrollments |
+| **Revenue** | Course price × enrollment count |
 
 ---
 
-## 🔄 Incremental Enhancements
+## 🔍 SQL Analysis Performed
 
-**New Additions (via `edtech_data_update.sql`):**
-- Added 4 new courses in **UI/UX Design** and **Data Visualization**  
-- Added 8+ advanced-level courses under existing instructors  
-- Introduced a new **`instructors` table** and linked via foreign key to `courses`  
-- Marked 100 random enrollments as completed (`progress = 100%`)  
-- Added new enrollments with realistic progress and timestamps  
+### 🧩 Student Analysis
 
----
+- Student demographic analysis
+- Registration trends by year
+- Student distribution by city
+- Gender distribution
+- Student enrollment and engagement analysis
+- Average progress and completion analysis
 
-## 📊 Analytical Insights Performed
+### 📘 Course Analysis
 
-### 🧩 **Students Analysis**
-- Fetch student data  
-- Admission trends by city  
-- Gender distribution of students  
-- Yearly registration trends  
-- Total students per city  
-- Dropped redundant `country` column  
+- Course count by category
+- Course count by difficulty level
+- Average course price by category
+- Most expensive courses
+- Course performance analysis
+- Course enrollment and completion performance
 
-### 📘 **Courses Analysis**
-- Instructor list and total courses per instructor  
-- Courses count per category and course level  
-- Average course price by category  
-- Most expensive courses in Python category  
-- Course level distribution  
+### 👨‍🏫 Instructor Analysis
 
-### 🧾 **Enrollments Analysis**
-- Total enrollments  
-- Students with progress below 55%  
-- Top 5 courses by enrollment count  
-- Monthly enrollments trend (in calendar order)
+- Total courses per instructor
+- Enrollment performance by instructor
+- Revenue generated by instructor
+- Instructor performance comparison
+- Revenue and enrollment relationship
 
-## 🧠 Advanced SQL Insights (CTE-Based)
+### 🧾 Enrollment Analysis
 
-### 1️⃣ Average Progress vs Completion Rate per Student
-- Uses **CTE (Common Table Expression)** to calculate each student’s engagement across all enrolled courses.
-- Outputs:
-  - Total courses enrolled
-  - Average progress
-  - Total completed courses
-  - Completion rate (%)
-
-### 2️⃣ Revenue by Instructor or Category
-- Computes **total revenue** and **enrollment count** per instructor and course category.
-- Helps identify top-performing instructors and profitable categories.
+- Total enrollments
+- Enrollment trends over time
+- Top courses by enrollment
+- Student progress analysis
+- Completion performance
+- Low-progress enrollment analysis
 
 ---
 
-## 🚀 Setup Instructions
+## 🧠 Advanced SQL Insights
 
-1. Open **Microsoft SQL Server Management Studio (SSMS)**  
-2. Create or connect to a local database instance  
-3. Run the following to set up the database:
-   ```sql
-   CREATE DATABASE EdTechDB;
-   GO
-   USE EdTechDB;
-   GO
-4. Execute `edtech_db.sql` to load all tables and data.
-5. Execute `edtech_analysis.sql` to perform insights.
-6. Run `edtech_advanced_insights.sql` for advanced analysis and CTE-based insights.
-7. `Execute edtech_data_update.sql`  to add new instructors, courses & enrollments
+### 1️⃣ Student Engagement Analysis
+
+Uses **CTEs (Common Table Expressions)** to evaluate student engagement across enrolled courses.
+
+Key metrics include:
+
+- Total courses enrolled
+- Average progress
+- Completed courses
+- Completion rate
+
+### 2️⃣ Revenue Analysis
+
+Analyzes revenue across:
+
+- Course categories
+- Instructors
+- Courses
+
+This helps identify the categories, courses and instructors contributing most to platform revenue.
+
+### 3️⃣ Instructor Performance
+
+Combines enrollment and revenue metrics to identify instructors with stronger commercial and learner engagement performance.
+
+---
+
+# 📊 Tableau Executive Dashboard
+
+The Tableau dashboard is currently **in progress**.
+
+The dashboard is being designed as an executive-level view of the EdTech platform, combining key business KPIs with trends and performance analysis.
+
+### Current Dashboard Components
+
+- Total Students
+- Total Enrollments
+- Completion Rate
+- Average Progress
+- Total Revenue
+- Monthly Revenue Trend
+- Revenue by Category
+- Revenue by Instructor
+- Enrollment Trends
+- Course Performance
+- Instructor Performance
+
+### Interactive Filters
+
+The dashboard is being designed with filters for:
+
+- **Year**
+- **Month**
+- **Instructor**
+- **Course Level**
+
+### Dashboard Status
+
+| Component | Status |
+|---|---|
+| KPI Cards | ✅ Complete |
+| Revenue Analysis | ✅ Complete |
+| Enrollment Analysis | ✅ Complete |
+| Course Performance | 🔄 Refinement |
+| Instructor Performance | 🔄 Refinement |
+| Dashboard Layout | 🔄 In Progress |
+| Interactive Filters | 🔄 In Progress |
+| Visual QA | ⏳ Pending |
+| Tableau Public Publication | ⏳ Pending |
+
+> **Note:** The Tableau dashboard is being finalized and will be published to Tableau Public once the visual design and QA are complete.
+
+**Tableau Public:** Coming soon
+
+---
+
+## 🚧 Project Roadmap
+
+- [x] Database design and setup
+- [x] Data loading
+- [x] Data validation
+- [x] Student analysis
+- [x] Course analysis
+- [x] Instructor analysis
+- [x] Enrollment analysis
+- [x] Revenue analysis
+- [x] Advanced SQL insights
+- [x] Business recommendations
+- [x] Tableau KPI development
+- [x] Tableau visualization development
+- [ ] Final dashboard layout refinement
+- [ ] Interactive filter refinement
+- [ ] Dashboard QA
+- [ ] Publish dashboard to Tableau Public
+
+---
+
+💡 Business Questions
+
+This project focuses on answering practical business questions such as:
+
+- How is student enrollment changing over time?
+- Which course categories generate the most revenue?
+- Which courses attract the most enrollments?
+- Which instructors generate the highest revenue?
+- Which courses have stronger completion performance?
+- Where is learner engagement weak?
+- How does course level relate to enrollment and completion?
+- Which areas of the platform should receive greater attention?
+
+---
+
+🎯 Key Takeaway
+
+The project demonstrates an end-to-end analytics workflow:
+
+Raw Data → SQL Database → Data Validation → SQL Analysis → Business Insights → Tableau Dashboard
+
+USE EdTechDB;
+GO
