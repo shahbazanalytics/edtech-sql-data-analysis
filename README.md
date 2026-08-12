@@ -117,7 +117,7 @@ The project contains four primary entities:
 | category         |   Category or domain (e.g., Python, Web Dev)                |
 | course_level     |   Level (Beginner/Intermediate/Advanced)                    |
 | price            |   Course price in INR                                       |
-| instructor_id    |   Foreign key → `instructors.instructor_id`                   |
+| instructor_id    |   Foreign key → `instructors.instructor_id`                 |
 
 ### 4️⃣ Enrollments
 
