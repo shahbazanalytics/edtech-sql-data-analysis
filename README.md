@@ -94,7 +94,7 @@ The project contains four primary entities:
 | `enrollment_date` | Enrollment date |
 | `progress_percent` | Course progress percentage (0–100%) |
 
-For detailed column definitions and business meanings, see [Docs](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/docs/data_dictionary.md).
+For detailed column definitions and business meanings, see [Data Dictionary Docs](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/docs/data_dictionary.md).
 
 The database relationships are documented in database_schema.md and visualized in [ER Diagram](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png).
 
