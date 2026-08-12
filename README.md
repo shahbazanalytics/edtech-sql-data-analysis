@@ -47,158 +47,58 @@ The goal is to turn raw operational data into insights that could support decisi
 
 ---
 
-## 📁 Project Structure
+## 🧠 Dataset Overview
 
-```text
-edtech-sql-data-analysis/
-│
-├── datasets/
-│   ├── csv/
-│   ├── processed/
-│   └── raw/
-│
-├── docs/
-│   ├── business_recommendations.md
-│   ├── data_dictionary.md
-│   └── metric_definitions.md
-│
-├── sql/
-│   ├── views/
-│   ├── 01_database_setup/
-│   ├── 02_load_data/
-│   ├── 03_data_validations/
-│   ├── 04_revenue_analysis/
-│   ├── 05_student_analysis/
-│   ├── 06_course_analysis/
-│   ├── 07_instructor_analysis/
-│   └── 08_business_questions/
-│
-├── banner_edtech_sql.png
-├── database_schema.md
-├── er_diagram.png
-└── README.md
+The project contains four primary entities:
 
----
+### 1️⃣ Students
 
-datasets/
+| Column | Description |
+|---|---|
+| `student_id` | Unique student identifier |
+| `first_name`, `last_name` | Student name |
+| `gender` | Male / Female / Other |
+| `date_of_birth` | Student's birth date |
+| `email` | Contact email |
+| `city` | City of registration |
+| `registration_date` | Date student registered |
 
-Contains the datasets used throughout the project.
+### 2️⃣ Instructors
 
-csv/ — CSV datasets used for analysis and dashboard development.
-processed/ — Cleaned and prepared datasets.
-raw/ — Original datasets before processing.
+| Column | Description |
+|---|---|
+| `instructor_id` | Unique instructor identifier |
+| `instructor_name` | Instructor full name |
+| `specialization` | Area of expertise |
+| `experience_years` | Teaching experience in years |
 
----
+### 3️⃣ Courses
 
-docs/
+| Column | Description |
+|---|---|
+| `course_id` | Unique course identifier |
+| `course_name` | Course title |
+| `category` | Course domain |
+| `course_level` | Beginner / Intermediate / Advanced |
+| `price` | Course price in INR |
+| `published_date` | Course publication date |
+| `instructor_id` | Foreign key → `instructors.instructor_id` |
 
-Contains supporting project documentation.
+### 4️⃣ Enrollments
 
-business_recommendations.md — Business findings and recommendations from the analysis.
-data_dictionary.md — Detailed table and column definitions.
-metric_definitions.md — Definitions and calculation logic for key metrics.
-
----
-
-sql/
-
-SQL scripts are organized according to the analysis workflow.
-
-views/ — Reusable SQL views used for reporting and analysis.
-01_database_setup/ — Database and table creation.
-02_load_data/ — Data loading scripts.
-03_data_validations/ — Data quality and validation checks.
-04_revenue_analysis/ — Revenue-related analysis.
-05_student_analysis/ — Student and engagement analysis.
-06_course_analysis/ — Course performance analysis.
-07_instructor_analysis/ — Instructor performance analysis.
-08_business_questions/ — Analysis built around specific business questions.
-
----
-
-🧠 Dataset Overview
-
-The analysis is built around four core tables:
-
-Table	Key Columns	Description
-students	student_id, registration_date, gender, city	Student profile and registration information.
-instructors	instructor_id, instructor_name, specialization, experience_years	Instructor profiles, expertise and teaching experience.
-courses	course_id, course_name, category, course_level, price, instructor_id	Course details, pricing, difficulty level and instructor relationships.
-enrollments	enrollment_id, student_id, course_id, enrollment_date, progress_percent	Student-course enrollments and learner progress.
+| Column | Description |
+|---|---|
+| `enrollment_id` | Unique enrollment identifier |
+| `student_id` | Foreign key → `students.student_id` |
+| `course_id` | Foreign key → `courses.course_id` |
+| `enrollment_date` | Enrollment date |
+| `progress_percent` | Course progress percentage (0–100%) |
 
 For detailed column definitions and business meanings, see docs/data_dictionary.md.
 
 The database relationships are documented in database_schema.md and visualized in er_diagram.png.
 
 ---
-
-📊 Key Metrics
-Metric	Definition
-Total Students	Distinct students represented in the enrollment data
-Total Enrollments	Total enrollment records
-Total Courses	Courses available in the catalog
-Completion Rate	Percentage of enrollments with 100% progress
-Average Progress	Average progress across all enrollments
-Revenue	Course price multiplied by enrollment count
-
----
-
-Metric definitions and calculation logic are documented in docs/metric_definitions.md.
-
----
-
-
-🔍 SQL Analysis
-👨‍🎓 Student Analysis
-
-The student analysis looks at enrollment behavior, engagement and learner progress.
-
-Key areas include:
-
-Student registration trends
-Student distribution by city
-Gender distribution
-Enrollment behavior
-Average progress
-Course completion
-Low-engagement students
-
-📚 Course Analysis
-
-The course analysis focuses on course demand, pricing and learner performance.
-
-Key areas include:
-
-Course count by category
-Course distribution by level
-Average course price by category
-Course enrollment performance
-Completion performance
-Top-performing courses
-
-👨‍🏫 Instructor Analysis
-
-Instructor performance is evaluated using both learner and revenue metrics.
-
-Key areas include:
-
-Courses offered by instructor
-Total enrollments
-Revenue generated
-Average learner progress
-Instructor performance comparison
-
-💰 Revenue Analysis
-
-Revenue analysis examines how course demand translates into platform revenue.
-
-Key areas include:
-
-Revenue by category
-Revenue by course
-Revenue by instructor
-Enrollment contribution
-Revenue trends over time
 
 🧠 Business Questions
 
@@ -254,25 +154,7 @@ Tableau Public: Coming soon
 
 The final Tableau Public link will be added once the dashboard has completed its final QA and is published.
 
-🚧 Project Status
-Component	Status
-Database setup	✅ Complete
-Data loading	✅ Complete
-Data validation	✅ Complete
-Student analysis	✅ Complete
-Course analysis	✅ Complete
-Instructor analysis	✅ Complete
-Revenue analysis	✅ Complete
-Business questions	✅ Complete
-Business recommendations	✅ Complete
-Tableau KPI development	✅ Complete
-Tableau chart development	✅ Complete
-Dashboard layout refinement	🔄 In Progress
-Interactive filters	🔄 In Progress
-Dashboard QA	⏳ Pending
-Tableau Public publication	⏳ Pending
 
----
 
 💡 Business Recommendations
 
