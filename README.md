@@ -104,14 +104,14 @@ The database relationships are documented in database_schema.md and visualized i
 
 The SQL analysis is structured around practical business questions, including:
 
-How are enrollments changing over time?
-Which course categories generate the most revenue?
-Which courses attract the most students?
-Which instructors generate the highest revenue?
-Which courses have stronger completion rates?
-Where is learner engagement relatively low?
-How does course level relate to enrollment and completion?
-Which areas of the platform could benefit from further attention?
+ - How are enrollments changing over time?
+ - Which course categories generate the most revenue?
+ - Which courses attract the most students?
+ - Which instructors generate the highest revenue?
+ - Which courses have stronger completion rates?
+ - Where is learner engagement relatively low?
+ - How does course level relate to enrollment and completion?
+ - Which areas of the platform could benefit from further attention?
 
 The detailed SQL work for these questions is available under sql/08_business_questions/.
 
@@ -123,49 +123,36 @@ The Tableau dashboard is currently in progress.
 
 The objective is to provide an executive-level view of the platform's student, course, instructor and revenue performance.
 
-Current Dashboard Components
-Total Students
-Total Enrollments
-Completion Rate
-Average Progress
-Total Revenue
-Monthly Revenue Trend
-Revenue by Category
-Revenue by Instructor
-Enrollment Trends
-Course Performance
-Instructor Performance
-Planned Filters
-Year
-Month
-Instructor
-Course Level
+#### Current Dashboard Components
 
-The dashboard is currently being refined for:
-
-Layout and spacing
-Consistent dark-theme styling
-KPI and chart formatting
-Interactive filters
-Tooltip clarity
-Final visual QA
+ - Total Students
+ - Total Enrollments
+ - Completion Rate
+ - Average Progress
+ - Total Revenue
+ - Monthly Revenue Trend
+ - Revenue by Category
+ - Revenue by Instructor
+ - Enrollment Trends
+ - Course Performance
+ - Instructor Performance
 
 Tableau Public: Coming soon
 
 The final Tableau Public link will be added once the dashboard has completed its final QA and is published.
 
+---
 
+💡  Business Recommendations
 
-💡 Business Recommendations
+#### The analysis produces recommendations around:
 
-The analysis produces recommendations around:
-
-Improving engagement in lower-performing courses
-Identifying high-performing course categories
-Understanding instructor-level performance
-Monitoring enrollment and revenue trends
-Improving completion performance
-Using learner progress to identify potential engagement issues
+ - Improving engagement in lower-performing courses
+ - Identifying high-performing course categories
+ - Understanding instructor-level performance
+ - Monitoring enrollment and revenue trends
+ - Improving completion performance
+ - Using learner progress to identify potential engagement issues
 
 Detailed recommendations are available in docs/business_recommendations.md.
 
