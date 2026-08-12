@@ -110,15 +110,14 @@ The project contains four primary entities:
 
 ### 3️⃣ Courses
 
-| Column | Description |
-|---|---|
-| `course_id` | Unique course identifier |
-| `course_name` | Course title |
-| `category` | Course domain |
-| `course_level` | Beginner / Intermediate / Advanced |
-| `price` | Course price in INR |
-| `published_date` | Course publication date |
-| `instructor_id` | Foreign key → `instructors.instructor_id` |
+| Column Name      |  Description                                                |
+|------------------|-------------------------------------------------------------|
+| course_id        |   Unique course identifier                                  |
+| course_name      |   Course title                                              |
+| category         |   Category or domain (e.g., Python, Web Dev)                |
+| course_level     |   Level (Beginner/Intermediate/Advanced)                    |
+| price            |   Course price in INR                                       |
+| instructor_id    |   Foreign key → `instructors.instructor_id`                   |
 
 ### 4️⃣ Enrollments
 
