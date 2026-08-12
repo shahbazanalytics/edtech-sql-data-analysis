@@ -94,9 +94,9 @@ The project contains four primary entities:
 | `enrollment_date` | Enrollment date |
 | `progress_percent` | Course progress percentage (0–100%) |
 
-For detailed column definitions and business meanings, see docs/data_dictionary.md.
+For detailed column definitions and business meanings, see [Docs](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/docs/data_dictionary.md).
 
-The database relationships are documented in database_schema.md and visualized in er_diagram.png.
+The database relationships are documented in database_schema.md and visualized in [ER Diagram](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png).
 
 ---
 
@@ -112,8 +112,6 @@ The SQL analysis is structured around practical business questions, including:
  - Where is learner engagement relatively low?
  - How does course level relate to enrollment and completion?
  - Which areas of the platform could benefit from further attention?
-
-The detailed SQL work for these questions is available under sql/08_business_questions/.
 
 ---
 
@@ -154,7 +152,7 @@ The final Tableau Public link will be added once the dashboard has completed its
  - Improving completion performance
  - Using learner progress to identify potential engagement issues
 
-Detailed recommendations are available in docs/business_recommendations.md.
+Detailed recommendations are available in [Business Recommendations Docs](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/docs/business_recommendations.md).
 
 ---
 
