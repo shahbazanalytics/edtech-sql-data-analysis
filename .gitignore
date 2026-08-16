@@ -1,0 +1,6 @@
+# Tableau temporary recovery files and logs
+`*.twbr
+`*.twb
+*.tflx
+*.tfl
+*.log
