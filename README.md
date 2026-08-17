@@ -18,18 +18,22 @@
 
 ## 📌 Project Overview
 
-This project analyzes data from a fictional EdTech platform to understand how students engage with courses, how courses and instructors perform, and what drives platform revenue.
+This project is an end-to-end analysis of an EdTech platform covering students, courses, instructors, and enrollments.
 
-The analysis covers four core areas:
+The project combines Microsoft SQL Server and Tableau to transform
+raw enrollment data into business-focused insights around:
 
 - Student enrollment and engagement
-- Course performance and completion
+- Course performance
+- Revenue trends and category performance
 - Instructor performance
-- Revenue and enrollment trends
+- Course completion
+- Business opportunities and recommendations
 
-The project follows an end-to-end analytics workflow, starting with data preparation and SQL-based analysis and moving into Tableau for interactive reporting.
+The goal is to demonstrate a complete analytics workflow from
+data preparation and validation to SQL analysis, business questions,
+and interactive dashboard reporting.
 
-The goal is to turn raw operational data into insights that could support decisions around **course strategy, learner engagement, instructor performance, and revenue growth**.
 
 ---
 
