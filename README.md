@@ -135,32 +135,6 @@ The SQL analysis is structured around practical business questions, including:
 
 ---
 
-📈 Tableau Executive Dashboard
-
-The Tableau dashboard is currently in progress.
-
-The objective is to provide an executive-level view of the platform's student, course, instructor and revenue performance.
-
-#### Current Dashboard Components
-
- - Total Students
- - Total Enrollments
- - Completion Rate
- - Average Progress
- - Total Revenue
- - Monthly Revenue Trend
- - Revenue by Category
- - Revenue by Instructor
- - Enrollment Trends
- - Course Performance
- - Instructor Performance
-
-Tableau Public: Coming soon
-
-The final Tableau Public link will be added once the dashboard has completed its final QA and is published.
-
----
-
 💡  Business Recommendations
 
 #### The analysis produces recommendations around:
