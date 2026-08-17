@@ -120,7 +120,7 @@ The Tableau dashboard provides an executive-level view of:
   <img src="./tableau/screenshots/dashboard.PNG" alt="EdTech Executive Dashboard">
 </p>
 
-### 🔗 Interactive Dashboard
+## 🔗 Interactive Dashboard
 
 **[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard)**
 
