@@ -8,13 +8,7 @@
   <strong>End-to-end SQL analytics project for an EdTech platform</strong>
 </p>
 
-<p align="center">
-  <a href="https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard">📊 View Interactive Tableau Dashboard</a>
-  •
-  <a href="https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png">🗂️ ER Diagram</a>
-</p>  
-
----
+  ---
 
 ## 📌 Project Overview
 
@@ -98,6 +92,31 @@ The project contains four primary entities:
 For detailed column definitions and business meanings, see [Data Dictionary Docs](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/docs/data_dictionary.md).
 
 The database relationships are documented in database_schema.md and visualized in [ER Diagram](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png).
+
+---
+
+## 📊 Dashboard
+
+### EdTech Executive Analytics Dashboard
+
+The Tableau dashboard provides an executive-level view of:
+
+- Total students
+- Total enrollments
+- Completion rate
+- Average progress
+- Revenue
+- Monthly revenue trends
+- Monthly enrollment trends
+- Revenue by category
+- Revenue by instructor
+- Top 5 courses by revenue
+- High-completion courses
+- Instructor performance
+
+### 🔗 Interactive Dashboard
+
+**[View the dashboard on Tableau Public](https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard)**
 
 ---
 
