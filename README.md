@@ -4,18 +4,15 @@
   <img src="banner_edtech_sql.png" alt="EdTech SQL Data Analysis Banner" width="100%">
 </p>
 
-<h1 align="center">EdTech SQL Data Analysis</h1>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-Microsoft%20SQL%20Server-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Visualization-Tableau-17A2B8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Analysis-green?style=for-the-badge" />
+  <strong>End-to-end SQL analytics project for an EdTech platform</strong>
 </p>
 
-> 🟡 **Project Status: Dashboard in Progress**
->
-> The database, data validation, SQL analysis, business questions, and core insights are complete. The Tableau Executive Dashboard is currently being finalized, with the focus on layout, visual consistency, interactive filters, and final QA.
+<p align="center">
+  [📊 View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard)
+  •
+  [🗂️ ER Diagram](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png)
+</p>  
 
 ---
 
