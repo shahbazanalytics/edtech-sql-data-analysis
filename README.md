@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  [📊 View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard)
+  <a href="https://public.tableau.com/app/profile/mohammad.shahbaz.alam7315/viz/Edtech_Analysis_Dashboard/EdTechExecutiveDashboard">📊 View Interactive Tableau Dashboard</a>
   •
-  [🗂️ ER Diagram](https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png)
+  <a href="https://github.com/shahbazanalytics/edtech-sql-data-analysis/blob/main/er_diagram.png">🗂️ ER Diagram</a>
 </p>  
 
 ---
